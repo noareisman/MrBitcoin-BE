@@ -35,11 +35,13 @@ if(process.env.NODE_ENV==='production'){
 const contactRoutes=require('./api/contact/contact.routes')
 const userRoutes=require('./api/user/user.routes')
 const authRoutes=require('./api/auth/auth.routes')
+const moveRoutes=require('./api/move/move.routes')
 const setupAsyncLocalStorage=require('./middlewares/setupAls.middleware')
 app.all('*',setupAsyncLocalStorage)//all routes use this middleware
 app.use('/api/contact',contactRoutes)
 app.use('/api/user',userRoutes)
 app.use('/api/auth',authRoutes)
+app.use('/api/move',moveRoutes)
 
 //Make every server-side-route to match the index.html so when requesting http://localhost:XXXX/index.html/XXX/XXX 
 //it will still respond with our SPA (single page app) (the index.html file) and will allow the router to take it from there (even if no route was matched)
