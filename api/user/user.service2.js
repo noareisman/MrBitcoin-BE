@@ -20,12 +20,24 @@ module.exports = {
 
 const PAGE_SIZE = 6
 
-function query(filterBy = {}) {
-    // const regex = new RegExp(filterBy.txt, 'i')
-    // var posts = posts.filter(post => { regex.test(post.title) || regex.test(post.content) })
-    // const startIdx = filterBy.pageIdx * PAGE_SIZE
-    // posts = posts.slice(startIdx, startIdx + PAGE_SIZE)
-    return Promise.resolve(users)
+// function query(filterBy = {}) {
+//     // const regex = new RegExp(filterBy.txt, 'i')
+//     // var posts = posts.filter(post => { regex.test(post.title) || regex.test(post.content) })
+//     // const startIdx = filterBy.pageIdx * PAGE_SIZE
+//     // posts = posts.slice(startIdx, startIdx + PAGE_SIZE)
+//     return Promise.resolve(users)
+// }
+
+function query(filterBy={}) {
+    console.log(filterBy);
+    var filteredUsers=users;
+    if (filterBy.fullname){
+        filteredUsers=users.filter(user=>{
+            return user.fullname.toLocaleLowerCase().includes(filterBy.fullname.toLocaleLowerCase())})
+        }
+        
+        console.log(filteredUsers);
+    return Promise.resolve(filteredUsers)
 }
 
 function getById(userId) {

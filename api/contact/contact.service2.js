@@ -26,6 +26,7 @@ function query(filterBy = {}) {
     return Promise.resolve(contacts)
 }
 
+
 function getById(contactId) {
     const contact = contacts.find(contact => {
         return contact._id === contactId})

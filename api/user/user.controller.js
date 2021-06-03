@@ -20,9 +20,11 @@ async function getUser(req,res){
 }
 
 async function getUsers(req,res){
+    let filterBy = {
+        fullname: req.query?.fullname || '',
+    }
     try{
-        // const filterBy=req.query
-        const users=await userService.query(filterBy={})
+        const users=await userService.query(filterBy)
         res.send(users)
     }catch(err){
         logger.error('Failed to get users',err)

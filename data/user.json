@@ -195,8 +195,14 @@
     "fullname": "Demo User",
     "phone": "+1 (842) 587-3877",
     "_id": "GlM9M",
-    "coins": 88,
+    "coins": 85,
     "contactList": [
+      {
+        "_id": "5a56640243427b8f8445231e",
+        "name": "Tanner Gates",
+        "email": "tannergates@renovize.com",
+        "phone": "+1 (978) 591-2291"
+      },
       {
         "_id": "5a566402f90ae30e97f990db",
         "name": "Faulkner Flores",
