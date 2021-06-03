@@ -45,7 +45,7 @@ async function deleteUser(req, res) {
 async function updateUser(req, res) {
     try {
         const user = req.body
-        console.log('req.body',req.body);
+        console.log('req.body',req.body.fullname,':',req.body.coins);
         // const savedUser = await userService.update(user)
         const savedUser = await userService.save(user)
         console.log('saved user',savedUser);

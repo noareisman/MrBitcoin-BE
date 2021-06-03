@@ -78,10 +78,11 @@ async function save(user) {
         users.splice(idx, 1, user)
         console.log('password post slice:',user.password);
     } else {
-        user._id = utilService.makeId()
-        user.phone=`+1 (${utilService.makeId(3)}) ${utilService.makeId(3)}-${utilService.makeId(4)}`
+        user._id = utilService.makeId(24)
+        user.phone=`+1 (${utilService.getRandomInt(300,999)}) ${utilService.getRandomInt(300,999)}-${utilService.getRandomInt(1000,9999)}`
         user.coins=100
-        user.moves=[]
+        user.contactList=[]
+        user.email=`${user.username}@renovize.com`
         users.unshift(user)
     }
 
