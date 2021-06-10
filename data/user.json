@@ -75,7 +75,7 @@
     "email": "dominiquesoto@renovize.com",
     "phone": "+1 (807) 551-3258",
     "password": "secret",
-    "coins": 100,
+    "coins": 103,
     "contactList": []
   },
   {
@@ -224,7 +224,7 @@
     "fullname": "Demo User",
     "phone": "+1 (842) 587-3877",
     "_id": "GlM9M",
-    "coins": 92,
+    "coins": 89,
     "contactList": [
       {
         "_id": "AAxBEmc6MFOo07VPbJGH0LB7",
