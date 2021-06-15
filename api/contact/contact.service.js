@@ -11,54 +11,25 @@ module.exports = {
     remove,
     add,
     update,
+    // save
 }
 
 const PAGE_SIZE = 6
 
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
-    // if (filterBy.txt) {
-    //     criteria.title = { $regex: new RegExp(filterBy.txt, 'i') }
-    // }
-    // if (filterBy.pageIdx) {
-    //     criteria.pageIdx = filterBy.pageIdx
-    // }
-    // if (filterBy.avgRate) {
-    //     criteria.avgRate = { $gte: filterBy.avgRate }
-    // }
     try {
         const collection = await dbService.getCollection('contact')//creating connection
-        console.log('conected to mongo');
-        const contacts = await collection.find(criteria).toArray()
-        // const contacts = await collection.find().toArray()
-        // const contacts = await collection.aggregate([
-        //     {
-        //         $match:filterBy// criteria
-        //     },
-        //     {
-        //         //what other collection we need to look into for the aggregation
-        //         $lookup:{
-        //             localField:'',//property name in origin collection
-        //             from:'',//origin collection name
-        //             foreignField:'',//property name in other collection 
-        //             as:'someName'// aggragate under this name
-        //         },
-        //     },
-        //     {
-        //         $unwind:'$someName'
-        //     }
-        // ]).toArray()          
+        console.log('connected to mongo');
+        const contacts = await collection.find(criteria).toArray()         
         return contacts
     } catch (err) {
         console.log(`ERROR: Cannot get contacts`)
         throw err
 
     }
-
-    // const startIdx = filterBy.pageIdx * PAGE_SIZE
-    // contacts = contacts.slice(startIdx, startIdx + PAGE_SIZE)
-    // return Promise.resolve(contacts)
 }
+
 function _buildCriteria(filterBy) {
     const criteria = {}
     if (filterBy.term) {
@@ -88,10 +59,10 @@ async function getById(contactId) {
 
 async function remove(contactId) {
     try {
-        const store = asyncLocalStorage.getStore()
-        const { userId, isAdmin } = store
-        const query = { _id: ObjectId(contactId) }
-        if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of contact or admin can make changes
+        // const store = asyncLocalStorage.getStore()
+        // const { userId, isAdmin } = store
+        const query = { '_id': ObjectId(contactId) }
+        // if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of contact or admin can make changes
         const collection = await dbService.getCollection('contact')//creating connection
         return await collection.deleteOne(query)
     } catch (err) {
@@ -107,22 +78,15 @@ async function update(contact) {
         // use only updatable fields!
         const contactToSave = {
             _id: ObjectId(contact._id),
-            createdAt:contact.createdAt,
-            title:contact.title,
-            content:contact.content,
-            creator:contact.creator,
-            comments: {
-                txtComments: contact.txtComments,
-                rating:contact.rating,
-                emojiComments: contact.emojiComments
-            },
-            attachedFiles:contact.attachedFiles
+            name: contact.name,
+            email: contact.email,
+            phone: contact.phone,
         }
-        const store = asyncLocalStorage.getStore()
-        const { userId, isAdmin } = store
-        const query = { _id: ObjectId(contact._id) }
-        if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of contact or admin can make changes
-        await collection.updateOne(query, { $set: contact })
+        // const store = asyncLocalStorage.getStore()
+        // const { userId, isAdmin } = store
+        const query = { '_id': ObjectId(contact._id) }
+        // if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of contact or admin can make changes
+        await collection.updateOne(query, { $set: contactToSave })
         return contact
     } catch (err) {
         console.log(`ERROR:cannot update contact ${contact._id}`)
@@ -134,22 +98,15 @@ async function add(contact) {
     try {
         //use only updatable fields!
         const contactToSave = {
-            createdAt:Date.now(),
-            title:contact.title,
-            content:contact.content,
-            creator:contact.creator,
-            comments: {
-                txtComments: contact.txtComments,
-                rating:contact.rating,
-                emojiComments: contact.emojiComments
-            },
-            attachedFiles:contact.attachedFiles
+            name: contact.name,
+            email: contact.email,
+            phone: contact.phone,
         }
         const collection = await dbService.getCollection('contact')
-        await collection.insetOne(contactToSave)
+        await collection.insertOne(contactToSave)
         return contactToAdd// return from mongo with ID
     } catch (err) {
-        console.log(`ERROR:cannot add contact ${contact._id}`)
+        console.log(`ERROR:cannot add contact ${contact._id}`,err)
         throw err
     }
 }

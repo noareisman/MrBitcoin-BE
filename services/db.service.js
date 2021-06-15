@@ -8,7 +8,8 @@ module.exports = {
 }
 
 // Database Name
-const dbName = 'MisterBitcoin_db'
+// const dbName = 'MisterBitcoin_db'//local mongo collection name
+const dbName = 'mrBitcoin'//atlas collection name
 
 var dbConn = null
 

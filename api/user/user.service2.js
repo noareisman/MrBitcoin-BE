@@ -2,13 +2,8 @@
 const users = require('../../data/user.json')
 //***********************************************//
 
-//********FOR WORKING WITH MONGO-DB AS DB********
-// const dbService = require('../../services/db.service')
-// const ObjectId = require('mongodb').ObjectId
-//***********************************************//
-
 const utilService = require('../../services/util.service')
-const { updateUser } = require('./user.controller')
+
 
 module.exports = {
     query,
@@ -19,14 +14,6 @@ module.exports = {
 }
 
 const PAGE_SIZE = 6
-
-// function query(filterBy = {}) {
-//     // const regex = new RegExp(filterBy.txt, 'i')
-//     // var posts = posts.filter(post => { regex.test(post.title) || regex.test(post.content) })
-//     // const startIdx = filterBy.pageIdx * PAGE_SIZE
-//     // posts = posts.slice(startIdx, startIdx + PAGE_SIZE)
-//     return Promise.resolve(users)
-// }
 
 function query(filterBy={}) {
     console.log(filterBy);
@@ -73,7 +60,7 @@ async function save(user) {
         const prevUser=await getById(user._id)
         console.log('prev user:',prevUser.password);
         user.password=prevUser.password
-        const idx = users.findIndex(c =>  c._id === user._id )
+        const idx = users.findIndex(u =>  u._id === user._id )
         if (idx < 0) Promise.reject('No such user', user._id)
         users.splice(idx, 1, user)
         console.log('password post slice:',user.password);
@@ -101,4 +88,5 @@ function _saveUsersToFile() {
         })
     })
 }
+
 

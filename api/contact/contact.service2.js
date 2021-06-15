@@ -2,11 +2,6 @@
 const contacts = require('../../data/contact.json')
 //***********************************************//
 
-//********FOR WORKING WITH MONGO-DB AS DB********
-// const dbService = require('../../services/db.service')
-// const ObjectId = require('mongodb').ObjectId
-//***********************************************//
-
 const utilService = require('../../services/util.service')
 
 module.exports = {
@@ -19,10 +14,6 @@ module.exports = {
 const PAGE_SIZE = 6
 
 function query(filterBy = {}) {
-    // const regex = new RegExp(filterBy.txt, 'i')
-    // var posts = posts.filter(post => { regex.test(post.title) || regex.test(post.content) })
-    // const startIdx = filterBy.pageIdx * PAGE_SIZE
-    // posts = posts.slice(startIdx, startIdx + PAGE_SIZE)
     return Promise.resolve(contacts)
 }
 
@@ -33,12 +24,10 @@ function getById(contactId) {
     console.log(contact);
     return Promise.resolve(contact)
 }
-// function remove(contactId,creatorId) {
 function remove(contactId) {
     console.log('removing');
     const idx = contacts.findIndex(contact => contact._id === contactId)
     if (idx < 0) Promise.reject('No such contact', contact._id)
-    // if (contacts[idx].creator._id!==creatorId) Promise.reject('Unauthorized! not contact owner')
     contacts.splice(idx, 1)
     return _saveContactsToFile()
 }

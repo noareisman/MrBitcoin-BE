@@ -1,4 +1,5 @@
-const userService = require('./user.service2')
+const userService = require('./user.service')//with MongoDB
+// const userService = require('./user.service2')//without MongoDB
 const logger=require('../../services/logger.service')
 
 module.exports={
@@ -21,7 +22,7 @@ async function getUser(req,res){
 
 async function getUsers(req,res){
     let filterBy = {
-        fullname: req.query?.fullname || '',
+        term: req.query?.fullname || '',
     }
     try{
         const users=await userService.query(filterBy)
@@ -45,10 +46,10 @@ async function deleteUser(req, res) {
 async function updateUser(req, res) {
     try {
         const user = req.body
-        console.log('req.body',req.body.fullname,':',req.body.coins);
-        // const savedUser = await userService.update(user)
-        const savedUser = await userService.save(user)
-        console.log('saved user',savedUser);
+        // console.log('req.body',req.body.fullname,':',req.body.coins);
+        const savedUser = await userService.update(user)//when using mongo
+        // const savedUser = await userService.save(user)//when not using mongo
+        // console.log('saved user',savedUser);
         res.send(savedUser)
     } catch (err) {
         logger.error('Failed to update user', err)
@@ -59,8 +60,8 @@ async function updateUser(req, res) {
 async function addUser(req, res) {
     try {
         const user = req.body
-        const savedUser = await userService.save(user)
-        // const savedUser = await userService.add(user)
+        // const savedUser = await userService.save(user)//when not using mongo
+        const savedUser = await userService.add(user)//when using mongo
         res.send(savedUser)
     } catch (err) {
         logger.error('Failed to add user', err)

@@ -1,48 +1,55 @@
-//********FOR WORKING WITH JSON FILE AS DB********
-const contacts = require('../../data/contact.json')
-//***********************************************//
-
-
 //********FOR WORKING WITH MONGO-DB AS DB********
-// const dbService = require('../../services/db.service')
-// const ObjectId = require('mongodb').ObjectId
+const dbService = require('../../services/db.service')
+const ObjectId = require('mongodb').ObjectId
 //***********************************************//
+
 const utilService = require('../../services/util.service')
 
 module.exports = {
     query,
     getById,
     remove,
-    update,
     add,
+    update,
     getByUsername,
+    // save
 }
+
+const PAGE_SIZE = 6
 
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     try {
-        const collection = await dbService.getCollection('user')
-        var users = await collection.find(criteria).toArray()
-        users = users.map(user => {
-            delete user.password
-            user.createdAt = ObjectId(user._id).getTimestamp()
-        })
+        const collection = await dbService.getCollection('user')//creating connection
+        // console.log('connected to mongo');
+        const users = await collection.find(criteria).toArray()         
         return users
     } catch (err) {
-        logger.error('ERROR: Cannot get users', err)
+        console.log(`ERROR: Cannot get users`)
         throw err
+
     }
 }
 
 function _buildCriteria(filterBy) {
-
+    const criteria = {}
+    if (filterBy.term) {
+        const txtCriteria = { $regex: filterBy.term, $options: 'i' }
+        criteria.$or = [
+            {
+                fullname: txtCriteria
+            }
+        ]
+    }
+    return criteria
 }
 
 async function getById(userId) {
     try {
         const collection = await dbService.getCollection('user')//creating connection
         const user = await collection.findOne({ "_id": ObjectId(userId) })
-        delete user.password
+        console.log(user);
+        // delete user.password
         return user
     } catch (err) {
         console.log(`ERROR:cannot find user by id: ${userId}`)
@@ -52,47 +59,52 @@ async function getById(userId) {
 
 async function getByUsername(username) {
     try {
-        const collection = await dbService.getCollection('user')//creating connection
+        const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ username })
-        delete user.password
+        console.log('got user:',user)
         return user
     } catch (err) {
-        console.log(`ERROR:cannot find user ${username}`)
+        logger.error(`while finding contact ${username}`, err)
         throw err
     }
 }
 
-
 async function remove(userId) {
     try {
-        const store = asyncLocalStorage.getStore()
-        const { isAdmin } = store
-        //only admin can remove users
-        if (!isAdmin) {
-            const collection = await dbService.getCollection('user')//creating connection
-            return await collection.deleteOne({ "_id": ObjectId(userId) })
-        }
+        // const store = asyncLocalStorage.getStore()
+        // const { userId, isAdmin } = store
+        const query = { '_id': ObjectId(userId) }
+        // if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of user or admin can make changes
+        const collection = await dbService.getCollection('user')//creating connection
+        return await collection.deleteOne(query)
     } catch (err) {
         console.log(`ERROR:cannot delete user ${userId}`)
         throw err
     }
 }
 
+
 async function update(user) {
     try {
         // use only updatable fields!
         const userToSave = {
-            _id: ObjectId(user._id),
+            phone:user.phone,
+            coins:user.coins,
+            contactList:user.contactList,
+            email:user.email,
             username: user.username,
-            password: user.password,
-            fullname: user.fullname,
-            imgUrl: user.img
+            fullname:user.fullname,
+            // _id:ObjectId(user._id)
         }
-        const collection = await dbService.getCollection('users')
-        await collection.updateOne({ '_id': userToSave._id }, { $set: userToSave })
-        return userToSave;
+        // const store = asyncLocalStorage.getStore()
+        // const { userId, isAdmin } = store
+        const query = { '_id': ObjectId(user._id) }
+        // if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of user or admin can make changes
+        const collection = await dbService.getCollection('user')
+        await collection.updateOne(query, { $set: userToSave })
+        return await collection.findOne(query)
     } catch (err) {
-        logger.error(`cannot update user ${user._id}`, err)
+        console.log(`ERROR:cannot update user ${user._id}`)
         throw err
     }
 }
@@ -100,34 +112,22 @@ async function update(user) {
 async function add(user) {
     try {
         //use only updatable fields!
-        const userToAdd = {
+        const userToSave = {
+            phone:`+1 (${utilService.getRandomInt(300,999)}) ${utilService.getRandomInt(300,999)}-${utilService.getRandomInt(1000,9999)}`,
+            coins:100,
+            contactList:[],
+            email:`${user.username}@renovize.com`,
             username: user.username,
-            password: user.password,
-            fullname: user.fullname,
+            password:user.password,
+            fullname:user.fullname
         }
         const collection = await dbService.getCollection('user')
-        await collection.insetOne(userToAdd)
-        return userToAdd// return from mongo with ID
+        await collection.insertOne(userToSave)
+        return userToSave
     } catch (err) {
-        console.log(`ERROR:cannot add user ${user._id}`)
+        console.log(`ERROR:cannot add user ${user._id}`,err)
         throw err
     }
 }
 
-// function save(user) {
-//     if (user._id) {
-//         const idx = gUsers.findIndex(p => { p._id === user._id })
-//         if (idx < 0) Promise.reject('No such user', user._id)
-//         users.splice(idx, 1, user)
-//     } else {
-//         user._id = utilService.makeId()
-//         user.unshift(user)
-//     }
-//     return _saveUsersToFile()
-//         .then(() => {
-//             user={...user}
-//             delete user.password
-//             return user
-//         })
-// }
 

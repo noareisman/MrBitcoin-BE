@@ -2,11 +2,6 @@
 const moves = require('../../data/move.json')
 //***********************************************//
 
-//********FOR WORKING WITH MONGO-DB AS DB********
-// const dbService = require('../../services/db.service')
-// const ObjectId = require('mongodb').ObjectId
-//***********************************************//
-
 const utilService = require('../../services/util.service')
 
 module.exports = {
@@ -43,7 +38,7 @@ function remove(moveId) {
 
 function save(move) {
     if (move._id) {
-        const idx = moves.findIndex(c =>  c._id === move._id )
+        const idx = moves.findIndex(m =>  m._id === move._id )
         if (idx < 0) Promise.reject('No such move', move._id)
         moves.splice(idx, 1, move)
     } else {

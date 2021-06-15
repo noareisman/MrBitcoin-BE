@@ -1,4 +1,5 @@
-const contactService = require('./contact.service2')
+// const contactService = require('./contact.service2') //when not using MongoDB
+const contactService = require('./contact.service') //when using MongoDB
 const logger = require('../../services/logger.service')
 
 module.exports = {
@@ -12,11 +13,12 @@ module.exports = {
 //get (filtered) contacts list
 async function getContacts(req, res) {
     try {
+
         // const filterBy = {
-        //     txt: req.query.txt || '',
-        //     pageIdx: +req.query.pageIdx || 0
+        //     txt: req.query.txt || '', //TODO: Add txt filter
+        //     pageIdx: +req.query.pageIdx || 0  //TODO: Add pagination filter
         // }
-        const contacts = await contactService.query(filterBy={})
+        const contacts = await contactService.query(filterBy = {})
         res.json(contacts)
     } catch (err) {
         logger.error('Failed to get contacts', err)
@@ -29,7 +31,6 @@ async function getContact(req, res) {
     try {
         // const loggedinUser = req.session.user//server side session
         const contact = await contactService.getById(req.params.id)
-        console.log(req.params.id);
         // if (!loggedinUser) {
         //     //cookie -last visited contacts:
         //     var lastVisitedContacts = JSON.parse(req.cookies.lastVisitedContacts || null)
@@ -47,27 +48,7 @@ async function getContact(req, res) {
         res.status(500).send({ err: 'Failed to get contact' })
     }
 }
-
-//Add new contact
-// async function addContact(req, res) {
-//     try {
-//         // const loggedinUser=JSON.parse(req.cookies.loggedinUser||null)//cookie -loggedin user
-//         const loggedinUser = req.session.user//server side session/////////////////////////////////////////////////////UNDOCOMMENT
-//         // if (!loggedinUser) return res.status(401).send('Please login')//checked by middleware requireAuth
-//         const contactOwner = {
-//             _id: loggedinUser._id,
-//             fullname: loggedinUser.fullname,
-//             img: loggedinUser.img
-//         }
-//         const { title, content } = req.body
-//         const contact = { title, content, creator: contactOwner }
-//         const savedContact = await contactService.add(contact)
-//         res.send(savedContact)
-//     } catch (err) {
-//         logger.error('Failed to adder', err)
-//         res.status(500).send({ err: 'Failed to add contact' })
-//     }
-// }
+//add contact
 async function addContact(req, res) {
     try {
         // // const loggedinUser=JSON.parse(req.cookies.loggedinUser||null)//cookie -loggedin user
@@ -78,10 +59,10 @@ async function addContact(req, res) {
         //     fullname: loggedinUser.fullname,
         //     img: loggedinUser.img
         // }
-        const { name,email, phone } = req.body
-        const contact = { name,email, phone }
-        // const savedContact = await contactService.add(contact)
-        const savedContact = await contactService.save(contact)
+        const { name, email, phone } = req.body
+        const contact = { name, email, phone }
+        const savedContact = await contactService.add(contact)
+        // const savedContact = await contactService.save(contact) //when not using MongoDB
         res.send(savedContact)
     } catch (err) {
         logger.error('Failed to adder', err)
@@ -91,10 +72,10 @@ async function addContact(req, res) {
 //update contact
 async function updateContact(req, res) {
     try {
-        const { _id, name,email, phone } = req.body
-        const contact = { _id, name,email, phone }
-        // const savedContact = await contactService.update(contact)
-        const savedContact = await contactService.save(contact)
+        const { _id, name, email, phone } = req.body
+        const contact = { _id, name, email, phone }
+        const savedContact = await contactService.update(contact)
+        // const savedContact = await contactService.save(contact) //when not using MongoDB 
         res.send(savedContact)
     } catch (err) {
         logger.error('Failed to update contact', err)

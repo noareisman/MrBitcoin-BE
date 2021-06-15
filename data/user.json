@@ -1,34 +1,5 @@
 [
   {
-    "username": "noareisman",
-    "fullname": "Noa Reisman",
-    "_id": "AAxBEmc6MFOo07VPbJGH0LB7",
-    "phone": "+1 (355) 718-6456",
-    "coins": 108,
-    "contactList": [
-      {
-        "_id": "GlM9M",
-        "name": "Demo User",
-        "email": "demouser@renovize.com",
-        "phone": "+1 (842) 587-3877"
-      },
-      {
-        "_id": "5a566402ed1cf349f0b47b4d",
-        "name": "Rachel Lowe",
-        "email": "rachellowe@renovize.com",
-        "phone": "+1 (911) 475-2312"
-      },
-      {
-        "_id": "5a56640269f443a5d64b32ca",
-        "name": "Ochoa Hyde",
-        "email": "ochoahyde@renovize.com",
-        "phone": "+1 (968) 593-3824"
-      }
-    ],
-    "email": "noareisman@renovize.com",
-    "password": "$2b$10$C6liLvU6gETbDWOjNY8S0upuU4Kk8rhje2wFrss1aqOUw2DY5AXAy"
-  },
-  {
     "_id": "5a56640269f443a5d64b32ca",
     "fullname": "Ochoa Hyde",
     "username": "Ochoa Hyde",
@@ -75,7 +46,7 @@
     "email": "dominiquesoto@renovize.com",
     "phone": "+1 (807) 551-3258",
     "password": "secret",
-    "coins": 103,
+    "coins": 107,
     "contactList": []
   },
   {
@@ -224,13 +195,19 @@
     "fullname": "Demo User",
     "phone": "+1 (842) 587-3877",
     "_id": "GlM9M",
-    "coins": 89,
+    "coins": 85,
     "contactList": [
       {
-        "_id": "AAxBEmc6MFOo07VPbJGH0LB7",
-        "name": "Noa Reisman",
-        "email": "noareisman@renovize.com",
-        "phone": "+1 (355) 718-6456"
+        "_id": "5a5664025c3abdad6f5e098c",
+        "name": "Lilly Conner",
+        "email": "lillyconner@renovize.com",
+        "phone": "+1 (842) 587-3812"
+      },
+      {
+        "_id": "5a566402abce24c6bfe4699d",
+        "name": "Dominique Soto",
+        "email": "dominiquesoto@renovize.com",
+        "phone": "+1 (807) 551-3258"
       },
       {
         "_id": "5a5664028c096d08eeb13a8a",
@@ -251,12 +228,6 @@
         "phone": "+1 (952) 501-2678"
       },
       {
-        "_id": "5a5664025c3abdad6f5e098c",
-        "name": "Lilly Conner",
-        "email": "lillyconner@renovize.com",
-        "phone": "+1 (842) 587-3812"
-      },
-      {
         "_id": "5a56640272c7dcdf59c3d411",
         "name": "Pamela Nolan",
         "email": "pamelanolan@renovize.com",
@@ -273,12 +244,6 @@
         "name": "Roy Cantu",
         "email": "roycantu@renovize.com",
         "phone": "+1 (929) 571-2295"
-      },
-      {
-        "_id": "5a566402abce24c6bfe4699d",
-        "name": "Dominique Soto",
-        "email": "dominiquesoto@renovize.com",
-        "phone": "+1 (807) 551-3258"
       },
       {
         "_id": "5a566402ed1cf349f0b47b4d",

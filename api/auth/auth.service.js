@@ -1,5 +1,6 @@
 const bcrypt = require('bcrypt')
-const userService= require('../user/user.service2')
+// const userService= require('../user/user.service2')//when not using mongo
+const userService= require('../user/user.service')// when using mongo
 const logger= require('../../services/logger.service')
 
 module.exports={
@@ -10,11 +11,11 @@ module.exports={
 async function login(username,password){
     logger.debug(`auth.service - login with username: ${username}`)
     const user = await userService.getByUsername(username)
-    if(!user) return Promise.reject('Invalid username or password')
-    console.log('user.password',user.password, 'password',password);
+    if(!user) return Promise.reject('Invalid username')
+    // console.log('user.password',user.password, 'password',password);
     const match= await bcrypt.compare(password, user.password)
-    console.log('match',match);
-    if (!match) return Promise.reject('invalid username or password')
+    // console.log('match',match);
+    if (!match) return Promise.reject('invalid password')
         // const userToReturn={_id:user._id,username:user.username}
     const userToReturn={...user}
     delete userToReturn.password

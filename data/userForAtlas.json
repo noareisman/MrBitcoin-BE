@@ -1,0 +1,275 @@
+[
+  {
+      "_id" : "5a56640269f443a5d64b32ca",
+      "fullname" : "Ochoa Hyde",
+      "username" : "Ochoa Hyde",
+      "email" : "ochoahyde@renovize.com",
+      "phone" : "+1 (968) 593-3824",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a5664025f6ae9aa24a99fde",
+      "fullname" : "Hallie Mclean",
+      "username" : "Hallie Mclean",
+      "email" : "halliemclean@renovize.com",
+      "phone" : "+1 (948) 464-2888",
+      "password" : "secret",
+      "coins" : 104,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a56640252d6acddd183d319",
+      "fullname" : "Parsons Norris",
+      "username" : "Parsons Norris",
+      "email" : "parsonsnorris@renovize.com",
+      "phone" : "+1 (958) 502-3495",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a566402ed1cf349f0b47b4d",
+      "fullname" : "Rachel Lowe",
+      "username" : "Rachel Lowe",
+      "email" : "rachellowe@renovize.com",
+      "phone" : "+1 (911) 475-2312",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a566402abce24c6bfe4699d",
+      "fullname" : "Dominique Soto",
+      "username" : "Dominique Soto",
+      "email" : "dominiquesoto@renovize.com",
+      "phone" : "+1 (807) 551-3258",
+      "password" : "secret",
+      "coins" : 100,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a566402a6499c1d4da9220a",
+      "fullname" : "Shana Pope",
+      "username" : "Shana Pope",
+      "email" : "shanapope@renovize.com",
+      "phone" : "+1 (970) 527-3082",
+      "password" : "secret",
+      "coins" : 100,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a566402f90ae30e97f990db",
+      "fullname" : "Faulkner Flores",
+      "username" : "Faulkner Flores",
+      "email" : "faulknerflores@renovize.com",
+      "phone" : "+1 (952) 501-2678",
+      "password" : "secret",
+      "coins" : 100,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a5664027bae84ef280ffbdf",
+      "fullname" : "Holder Bean",
+      "username" : "Holder Bean",
+      "email" : "holderbean@renovize.com",
+      "phone" : "+1 (989) 503-2663",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a566402e3b846c5f6aec652",
+      "fullname" : "Rosanne Shelton",
+      "username" : "Rosanne Shelton",
+      "email" : "rosanneshelton@renovize.com",
+      "phone" : "+1 (968) 454-3851",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a56640272c7dcdf59c3d411",
+      "fullname" : "Pamela Nolan",
+      "username" : "Pamela Nolan",
+      "email" : "pamelanolan@renovize.com",
+      "phone" : "+1 (986) 545-2166",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a5664029a8dd82a6178b15f",
+      "fullname" : "Roy Cantu",
+      "username" : "Roy Cantu",
+      "email" : "roycantu@renovize.com",
+      "phone" : "+1 (929) 571-2295",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a5664028c096d08eeb13a8a",
+      "fullname" : "Ollie Christian",
+      "username" : "Ollie Christian",
+      "email" : "olliechristian@renovize.com",
+      "phone" : "+1 (977) 419-3550",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a5664026c53582bb9ebe9d1",
+      "fullname" : "Nguyen Walls",
+      "username" : "Nguyen Walls",
+      "email" : "nguyenwalls@renovize.com",
+      "phone" : "+1 (963) 471-3181",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a56640298ab77236845b82b",
+      "username" : "Glenna Santana",
+      "fullname" : "Glenna Santana",
+      "email" : "glennasantana@renovize.com",
+      "phone" : "+1 (860) 467-2376",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a56640208fba3e8ecb97305",
+      "fullname" : "Malone Clark",
+      "username" : "Malone Clark",
+      "email" : "maloneclark@renovize.com",
+      "phone" : "+1 (818) 565-2557",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a566402abb3146207bc4ec5",
+      "fullname" : "Floyd Rutledge",
+      "username" : "Floyd Rutledge",
+      "email" : "floydrutledge@renovize.com",
+      "phone" : "+1 (807) 597-3629",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a56640298500fead8cb1ee5",
+      "fullname" : "Grace James",
+      "username" : "Grace James",
+      "email" : "gracejames@renovize.com",
+      "phone" : "+1 (959) 525-2529",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a56640243427b8f8445231e",
+      "fullname" : "Tanner Gates",
+      "username" : "Tanner Gates",
+      "email" : "tannergates@renovize.com",
+      "phone" : "+1 (978) 591-2291",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "5a5664025c3abdad6f5e098c",
+      "fullname" : "Lilly Conner",
+      "username" : "Lilly Conner",
+      "email" : "lillyconner@renovize.com",
+      "phone" : "+1 (842) 587-3812",
+      "password" : "secret",
+      "coins" : 100.0,
+      "contactList" : []
+  },
+  {
+      "_id" : "GlM9M",
+      "email" : "demouser@renovize.com",
+      "username" : "Demo User",
+      "fullname" : "Demo User",
+      "phone" : "+1 (842) 587-3877",
+      "coins" : 91,
+      "contactList" : [ 
+          {
+              "_id" : "5a5664027bae84ef280ffbdf",
+              "name" : "Holder Bean",
+              "email" : "holderbean@renovize.com",
+              "phone" : "+1 (989) 503-2663"
+          }, 
+          {
+              "_id" : "5a5664025f6ae9aa24a99fde",
+              "name" : "Hallie Mclean",
+              "email" : "halliemclean@renovize.com",
+              "phone" : "+1 (948) 464-2888"
+          }, 
+          {
+              "_id" : "5a566402a6499c1d4da9220a",
+              "name" : "Shana Pope",
+              "email" : "shanapope@renovize.com",
+              "phone" : "+1 (970) 527-3082"
+          }, 
+          {
+              "_id" : "5a5664025c3abdad6f5e098c",
+              "name" : "Lilly Conner",
+              "email" : "lillyconner@renovize.com",
+              "phone" : "+1 (842) 587-3812"
+          }, 
+          {
+              "_id" : "5a566402abce24c6bfe4699d",
+              "name" : "Dominique Soto",
+              "email" : "dominiquesoto@renovize.com",
+              "phone" : "+1 (807) 551-3258"
+          }, 
+          {
+              "_id" : "5a5664028c096d08eeb13a8a",
+              "name" : "Ollie Christian",
+              "email" : "olliechristian@renovize.com",
+              "phone" : "+1 (977) 419-3550"
+          }, 
+          {
+              "_id" : "5a56640243427b8f8445231e",
+              "name" : "Tanner Gates",
+              "email" : "tannergates@renovize.com",
+              "phone" : "+1 (978) 591-2291"
+          }, 
+          {
+              "_id" : "5a566402f90ae30e97f990db",
+              "name" : "Faulkner Flores",
+              "email" : "faulknerflores@renovize.com",
+              "phone" : "+1 (952) 501-2678"
+          }, 
+          {
+              "_id" : "5a5664026c53582bb9ebe9d1",
+              "name" : "Nguyen Wallas",
+              "email" : "nguyenwalls@renovize.com",
+              "phone" : "+1 (963) 471-3181"
+          }, 
+          {
+              "_id" : "5a566402ed1cf349f0b47b4d",
+              "name" : "Rachel Lowe",
+              "email" : "rachellowe@renovize.com",
+              "phone" : "+1 (911) 475-2312"
+          }, 
+          {
+              "_id" : "5a56640208fba3e8ecb97305",
+              "name" : "Malone Clark",
+              "email" : "maloneclark@renovize.com",
+              "phone" : "+1 (818) 565-2557"
+          }, 
+          {
+              "_id" : "5a56640269f443a5d64b32ca",
+              "name" : "Ochoa Hyde",
+              "email" : "ochoahyde@renovize.com",
+              "phone" : "+1 (968) 593-3824"
+          }
+      ],
+      "password" : "$2b$10$Rxl1YfnqO43kIp0GkLzMfOq42FkLZ8Tx9zw1kmbTExIku1Qr2AcZK"
+  }
+]

@@ -2179,3 +2179,815 @@
 10.6.2021, 22:09:13 - DEBUG - auth.service - login with username: Demo User (sid: Gohvx6P52WuwrNgFjRIYn1AoPclR0JKT)
 10.6.2021, 22:09:13 - DEBUG - auth.service - login with username: Demo User (sid: PmdrkSQMvtgnDuH9e9n2gJOl7BewIX7x)
 10.6.2021, 22:48:07 - DEBUG - auth.service - login with username: Demo User (sid: 6dNkJfWzU_LWR_RXU20offubgwBDDhjd)
+11.6.2021, 10:56:59 - INFO - Backend ready at http://localhost:3030 
+11.6.2021, 10:57:04 - DEBUG - auth.service - login with username: Demo User (sid: F4_v2rVoM6Jy68Ge-q9qbeinRZWet_C0)
+11.6.2021, 11:17:46 - DEBUG - auth.service - login with username: Demo User (sid: LtCrxoWVUhb0VljFaS7Ks_KfeY-NGlO8)
+11.6.2021, 11:17:46 - DEBUG - auth.service - login with username: Demo User (sid: fYadOoHRQM6343B10ZRQYXmb1RXgmbgB)
+11.6.2021, 11:18:11 - DEBUG - auth.service - login with username: Demo User (sid: h3pjMeUzVEACEEjmlFJtrZrl4-Tf_u-x)
+11.6.2021, 11:18:11 - DEBUG - auth.service - login with username: Demo User (sid: clabegMpYBzHjBmRq_eXQdN0na20nxGl)
+11.6.2021, 11:18:31 - DEBUG - auth.service - login with username: Demo User (sid: lA8jrE_PGrRt710VY5oe7jm121cxusus)
+11.6.2021, 11:18:31 - DEBUG - auth.service - login with username: Demo User (sid: M6c3mC-MyjBA-vYmEEzbIaIUoZt-Zf-y)
+11.6.2021, 11:32:40 - DEBUG - auth.service - login with username: Demo User (sid: f4eyc2ogppQGxht8BWvOTfm9wNuC3kOH)
+11.6.2021, 11:32:40 - DEBUG - auth.service - login with username: Demo User (sid: R8VHMssdmKGvluk0q51KM-9s9UY93hDt)
+11.6.2021, 11:34:04 - DEBUG - auth.service - login with username: Demo User (sid: eWgS83w_bCYai1TXeqrNGGtb8_3Dd9qN)
+11.6.2021, 11:34:04 - DEBUG - auth.service - login with username: Demo User (sid: F91pxaw8k58GxICl9JKYwZOVdR7ZppqQ)
+11.6.2021, 11:42:48 - DEBUG - auth.service - login with username: Demo User (sid: J9JHp_AfKxg0F02dErHpqm95OHdwanUR)
+11.6.2021, 11:42:48 - DEBUG - auth.service - login with username: Demo User (sid: GaUTYGa50fYkAxsUmHuXE0qo2988fWvy)
+11.6.2021, 11:47:41 - DEBUG - auth.service - login with username: Demo User (sid: VNRriiwypWp3UbSy_lwNC13vU1xtnqmu)
+11.6.2021, 11:47:42 - DEBUG - auth.service - login with username: Demo User (sid: cddKXydUGPpAblX9L87IDpitDbiTbdGM)
+11.6.2021, 12:15:58 - DEBUG - auth.service - login with username: Demo User (sid: -kOMXPopfVHZffR9wJuaT6414_LtguEk)
+11.6.2021, 13:54:33 - DEBUG - auth.service - login with username: Demo User (sid: TAgGUjKdYRwfSkN9opaoO4EzIJvEqfZB)
+11.6.2021, 13:54:33 - DEBUG - auth.service - login with username: Demo User (sid: ZqoOmXfWtPXrYbOPcSs7bDDDB_b9DgLC)
+11.6.2021, 14:00:13 - DEBUG - auth.service - login with username: Demo User (sid: QwxRQmmKUAv0qhGvVGi_FDGrOco-Owmi)
+11.6.2021, 14:00:13 - DEBUG - auth.service - login with username: Demo User (sid: VyvrrISwpRT6qmsut12TFdot7qTDt_38)
+11.6.2021, 14:01:12 - DEBUG - auth.service - login with username: Demo User (sid: 9tb7TjJAsa8FGyQvdcrc4pnuyGXwNWtg)
+11.6.2021, 14:01:12 - DEBUG - auth.service - login with username: Demo User (sid: -eDeUW4DeGNajkXmw86fALUYD-6MQj74)
+11.6.2021, 14:02:48 - DEBUG - auth.service - login with username: Demo User (sid: aUQlpo1YrMUSnqsV7FrQaq_mHK9DLG6g)
+11.6.2021, 14:02:48 - DEBUG - auth.service - login with username: Demo User (sid: EM3aoMnO-aOrPngXcZ6gtjkxlKd4wS9D)
+11.6.2021, 14:13:42 - DEBUG - auth.service - login with username: Demo User (sid: Q6Nzf9iUnD710JlVoDNrSPIWd5PedKo-)
+11.6.2021, 14:13:42 - DEBUG - auth.service - login with username: Demo User (sid: Sqo4FjLlw176fYLjtrZJYpknVvlUUOq6)
+11.6.2021, 14:15:23 - DEBUG - auth.service - login with username: Demo User (sid: nyIy1r0r1gZi05j9EC5NLYSm1XpplBKp)
+11.6.2021, 14:15:23 - DEBUG - auth.service - login with username: Demo User (sid: BF68eSQKR5E_WzX93gMYBPRuCVAEoKU7)
+11.6.2021, 14:16:59 - DEBUG - auth.service - login with username: Demo User (sid: -b7XY-qqx54xlsVFQUxnC6wPZOZlKLB4)
+11.6.2021, 14:16:59 - DEBUG - auth.service - login with username: Demo User (sid: pEeA7IEYft_T2qlD52VjLyc33anCcb0Z)
+11.6.2021, 14:18:02 - DEBUG - auth.service - login with username: Demo User (sid: SpX1nH-U-1ipsPxgiwKh5c_B616-o8DO)
+11.6.2021, 14:18:02 - DEBUG - auth.service - login with username: Demo User (sid: u2p3gqZ7fuEd0k7OyNNKmiQU5eQUdjy7)
+11.6.2021, 14:19:03 - DEBUG - auth.service - login with username: Demo User (sid: I22_Z6LPsdtv3fmkdfoXiriuYWGopdxk)
+11.6.2021, 14:19:03 - DEBUG - auth.service - login with username: Demo User (sid: FJ4ze1G-fmq4KBB9NVLeOiD8UC_Um6DK)
+11.6.2021, 14:20:03 - DEBUG - auth.service - login with username: Demo User (sid: sJsDnWS54B9qVIbaKe5L3xgvhhpDNLXS)
+11.6.2021, 14:20:03 - DEBUG - auth.service - login with username: Demo User (sid: _KCmYtMpQxQMd7T97v_wEgnOgq0euTPY)
+11.6.2021, 14:20:55 - DEBUG - auth.service - login with username: Demo User (sid: IN_whxjrStsQ3qWRWwIPB-snOtBwzZ5x)
+11.6.2021, 14:20:55 - DEBUG - auth.service - login with username: Demo User (sid: la3eG0Mu67XVx_WnEQlzlU_N73ntdmhw)
+11.6.2021, 14:21:56 - DEBUG - auth.service - login with username: Demo User (sid: bdJA7xFNyxqzyBNWvuSMYJqosLVW-g1Z)
+11.6.2021, 14:21:56 - DEBUG - auth.service - login with username: Demo User (sid: sKxlx5lExNjHuR4k9BJ2sI9CxVzj7WlQ)
+11.6.2021, 14:23:59 - DEBUG - auth.service - login with username: Demo User (sid: vFEUc5Vt68fiL4aP1G4VcgGnRKnPkV3A)
+11.6.2021, 14:23:59 - DEBUG - auth.service - login with username: Demo User (sid: Dq81_y0N0z1UiXbS3qGQaRr4ap-0LRle)
+11.6.2021, 14:25:54 - DEBUG - auth.service - login with username: Demo User (sid: PDoZAeanmkkGkGeTOJ1Q-_EV8EpaVcBx)
+11.6.2021, 14:25:54 - DEBUG - auth.service - login with username: Demo User (sid: l9d3hO_GINavFngtiL8Jpwpi7v9F7nNF)
+11.6.2021, 14:25:57 - DEBUG - auth.service - login with username: Demo User (sid: KfaEh7j93jIDbm1MEFAfCv8PC6xaWsfO)
+11.6.2021, 14:25:57 - DEBUG - auth.service - login with username: Demo User (sid: 2wH7Gnc4K6aDOCoxVVE7tThjxgS6hdFe)
+11.6.2021, 14:27:03 - DEBUG - auth.service - login with username: Demo User (sid: yuafZi0dIp4vRvOplcvN77d0hKCX14ej)
+11.6.2021, 14:27:03 - DEBUG - auth.service - login with username: Demo User (sid: NSmeuAnf_HiGV_eMzRdayXfHMCqNOn2g)
+11.6.2021, 14:28:13 - DEBUG - auth.service - login with username: Demo User (sid: jwQaxS6KFFJjubI4G0dWzhMxC_aY6FLV)
+11.6.2021, 14:28:13 - DEBUG - auth.service - login with username: Demo User (sid: ua42EDlApMfP1s8o0hsNpG0Kj3DPxjgS)
+11.6.2021, 14:29:13 - DEBUG - auth.service - login with username: Demo User (sid: 9HJQGOjPGdmiin5MTOgePbQmo4_y6Fg0)
+11.6.2021, 14:29:13 - DEBUG - auth.service - login with username: Demo User (sid: wWjSx6dxBjvgkkY8ElSaqBP1JpysPY3u)
+11.6.2021, 14:30:43 - DEBUG - auth.service - login with username: Demo User (sid: VTC29yFG69JXgjeE0kVFtu02Je5lU35v)
+11.6.2021, 14:30:43 - DEBUG - auth.service - login with username: Demo User (sid: tn3gyFDx45hftFumHPW-H1gyIIKY92Xn)
+11.6.2021, 14:31:29 - DEBUG - auth.service - login with username: Demo User (sid: wAAq2tb1VRY5rZnZzuyS3QqRfw4BqxLV)
+11.6.2021, 14:31:29 - DEBUG - auth.service - login with username: Demo User (sid: lPMnoQN_zUGxDs1Gf3fqNjY2oHyXD2q2)
+11.6.2021, 14:33:09 - DEBUG - auth.service - login with username: Demo User (sid: FQKA3uU1Soi3xfHMbs8r4ihdccnKwqn0)
+11.6.2021, 14:33:09 - DEBUG - auth.service - login with username: Demo User (sid: 9IyBJvRuwO4af87mRTA4TxXBW2tvNZg7)
+11.6.2021, 14:37:05 - DEBUG - auth.service - login with username: Demo User (sid: VAjNiYp7ADUjOzQ8Bc7DFz9rd6rGMFn0)
+11.6.2021, 14:37:05 - DEBUG - auth.service - login with username: Demo User (sid: Y_Cwm9OHu5nrwXP3lMREBLxorbR8vyqY)
+11.6.2021, 14:44:24 - DEBUG - auth.service - login with username: Demo User (sid: NEBNTdO-6GtNzqPSGA7iixMfeZPL9RXm)
+11.6.2021, 14:44:24 - DEBUG - auth.service - login with username: Demo User (sid: oUpmTOPJJC18u8h6ad_OISw6Xf56hEBk)
+11.6.2021, 14:46:23 - DEBUG - auth.service - login with username: Demo User (sid: DR4mcjzC8gyVrZ6H3B4Mm5zP8aGE-lv5)
+11.6.2021, 14:46:23 - DEBUG - auth.service - login with username: Demo User (sid: rXSdHK-Yi-0Xa7FquCNrLl1puqMg1H_8)
+11.6.2021, 14:47:51 - DEBUG - auth.service - login with username: Demo User (sid: AU4dv26G36ABHD7mMjHKFEss07Ag_T-M)
+11.6.2021, 14:47:51 - DEBUG - auth.service - login with username: Demo User (sid: xccbOgQQ4OIcg4yiti-sKjgrL3UHLJnB)
+11.6.2021, 14:50:09 - DEBUG - auth.service - login with username: Demo User (sid: 14GYgIOX669N2PU2Nqt9cXOfVRTgk7se)
+11.6.2021, 14:50:09 - DEBUG - auth.service - login with username: Demo User (sid: aePiWhYlHFuNMC1dmbccuhIlbEYrzlXw)
+11.6.2021, 14:53:11 - DEBUG - auth.service - login with username: Demo User (sid: Ic8Lpve4VqfZRH8WlTHWlXEMeHE4wmiA)
+11.6.2021, 14:53:11 - DEBUG - auth.service - login with username: Demo User (sid: 8Xwb-pufsa3te4-x-vvFyQ1gZrX8anVp)
+11.6.2021, 14:58:00 - DEBUG - auth.service - login with username: Demo User (sid: L484Xdx7ea2VfAw-OaAErD9EyLWe4IzP)
+11.6.2021, 14:58:00 - DEBUG - auth.service - login with username: Demo User (sid: b76BIJiUFiLA8Zp7mN4xormAYMYe7z_0)
+11.6.2021, 14:59:12 - DEBUG - auth.service - login with username: Demo User (sid: xdMGkyk5w3kBO0PUvMmZDwQwG3KsZ1g_)
+11.6.2021, 14:59:12 - DEBUG - auth.service - login with username: Demo User (sid: _RXteggdyqWjflXbEgVAMaV3kKnG0cyt)
+11.6.2021, 15:58:03 - DEBUG - auth.service - login with username: Demo User (sid: Krcq_kPfDBlt4qgkf9JHc57e6ppztlVv)
+11.6.2021, 15:58:04 - DEBUG - auth.service - login with username: Demo User (sid: SpOnCRjzIq8O50bEcR8EBwFd8FYY8Q_d)
+11.6.2021, 15:58:45 - DEBUG - auth.service - login with username: Demo User (sid: rlNympFErVD4yI1tNIdXqTl8SbYGcVpk)
+11.6.2021, 15:58:45 - DEBUG - auth.service - login with username: Demo User (sid: Dn7VR9B9VLkx8LckrWmogIUqv2_ttsSz)
+11.6.2021, 16:04:41 - DEBUG - auth.service - login with username: Demo User (sid: DXeXBTUDfPDty1W2IPxDFplZa6bo9yuf)
+11.6.2021, 16:10:39 - DEBUG - auth.service - login with username: Demo User (sid: T0sALco1Gm9APWl3Gwekb-YXDpyQBqIR)
+11.6.2021, 16:10:39 - DEBUG - auth.service - login with username: Demo User (sid: DHwPkd4w0TToURWcpr9O2t587cZ4ChJ3)
+11.6.2021, 16:11:18 - DEBUG - auth.service - login with username: Demo User (sid: NfydngtPbhZ33am7F3uDxp858n2rcZLk)
+11.6.2021, 16:11:18 - DEBUG - auth.service - login with username: Demo User (sid: p2-mBKxzLez4Eg38E5wTDY32XxIVKBGL)
+11.6.2021, 16:20:52 - INFO - Backend ready at http://localhost:3030 
+11.6.2021, 16:21:04 - INFO - Backend ready at http://localhost:3030 
+11.6.2021, 16:21:13 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:29:57 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:30:15 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:32:48 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:33:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:33:27 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:34:50 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:18 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:20 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:39 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:44 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:49 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:35:57 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:02 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:13 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:43 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:36:51 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:38:03 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:38:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:38:09 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:40 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:45 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:39:58 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:40:02 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:40:04 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:40:06 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:40:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:40:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:42:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:42:54 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:56:27 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 8:59:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:08:43 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:09:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:22:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:25:39 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:25:49 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:26:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:26:23 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:27:12 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:27:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:29:31 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:29:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:43:04 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:43:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:43:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:43:44 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:43:47 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:48:15 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 9:48:49 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:04:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:05:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:05:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:01 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:06 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:20 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:22 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:34 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:37 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 10:07:41 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:18:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:20:45 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:20:54 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:21:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:21:09 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:21:12 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:22:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:22:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:22:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:37:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:13 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:31 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:45 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:38:47 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:42:22 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:42:51 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:42:59 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:44:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:44:44 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:44:50 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:44:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:44:58 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:45:04 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:45:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:45:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:45:23 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:47:41 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:47:54 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:01 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:04 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:09 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:17 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:48:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:15 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:30 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:33 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:49:38 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:50:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:50:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:50:54 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:51:02 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:51:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:51:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:51:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:51:18 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:52:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:53:02 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:53:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:53:51 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:03 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:09 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:30 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:54:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:55:36 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:55:38 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:55:40 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:55:44 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:55:50 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:56:06 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:59:06 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:59:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:59:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:59:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 11:59:37 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:23:55 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:24:22 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:24:24 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:24:31 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:24:55 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:24:57 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:22 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:26 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:40 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:51 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:25:56 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:26:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:26:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:26:47 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:33:23 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:33:26 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 12:33:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 13:51:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 13:51:30 - DEBUG - auth.service - login with username: Demo User (sid: gqrhhm_cilA0GfHEJem5lTXhZj3Gv6mp)
+12.6.2021, 13:51:42 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: zce19X-SfTJod-7P0aL3jXtjGx3cEhkx)
+12.6.2021, 13:51:42 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: zce19X-SfTJod-7P0aL3jXtjGx3cEhkx)
+12.6.2021, 13:51:42 - ERROR - Failed to get user | MongoParseError: URI malformed, cannot be parsed (sid: zce19X-SfTJod-7P0aL3jXtjGx3cEhkx)
+12.6.2021, 13:52:01 - ERROR - Failed to adder | TypeError: moveService.add is not a function (sid: hG2y9HNKwVwxd62XLgQAcg-ltMP1ZCwj)
+12.6.2021, 13:52:33 - DEBUG - auth.service - login with username: Demo User (sid: XKcOrsNuPLKvgLjyerZ9AAwLz5AWMoLL)
+12.6.2021, 13:52:33 - DEBUG - auth.service - login with username: Demo User (sid: 6ZrBfgfuXBxf_2dfLzp0CrMsbCb7BPQQ)
+12.6.2021, 13:52:40 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: BPbYnm4-66Hb-JCIebGRue4rZP59Hv-Q)
+12.6.2021, 13:52:40 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: BPbYnm4-66Hb-JCIebGRue4rZP59Hv-Q)
+12.6.2021, 13:52:40 - ERROR - Failed to get users | MongoParseError: URI malformed, cannot be parsed (sid: BPbYnm4-66Hb-JCIebGRue4rZP59Hv-Q)
+12.6.2021, 13:52:48 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: xp1NFRlNv4cN632sjF5UdahB4eb1ok7l)
+12.6.2021, 13:52:48 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: xp1NFRlNv4cN632sjF5UdahB4eb1ok7l)
+12.6.2021, 13:52:48 - ERROR - Failed to get users | MongoParseError: URI malformed, cannot be parsed (sid: xp1NFRlNv4cN632sjF5UdahB4eb1ok7l)
+12.6.2021, 13:52:49 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: OFln3MNyf66hMJ556C6P2DspBlQu6Cz8)
+12.6.2021, 13:52:49 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: OFln3MNyf66hMJ556C6P2DspBlQu6Cz8)
+12.6.2021, 13:52:49 - ERROR - Failed to get users | MongoParseError: URI malformed, cannot be parsed (sid: OFln3MNyf66hMJ556C6P2DspBlQu6Cz8)
+12.6.2021, 13:52:49 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: ZSx2Aj6RyIfqkC07l-eHqf6f3Z9FpWvm)
+12.6.2021, 13:52:49 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: ZSx2Aj6RyIfqkC07l-eHqf6f3Z9FpWvm)
+12.6.2021, 13:52:49 - ERROR - Failed to get users | MongoParseError: URI malformed, cannot be parsed (sid: ZSx2Aj6RyIfqkC07l-eHqf6f3Z9FpWvm)
+12.6.2021, 13:52:49 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: 7NTMDT8LGNDxcpKYkFImn-70JSsTKsxN)
+12.6.2021, 13:52:49 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: 7NTMDT8LGNDxcpKYkFImn-70JSsTKsxN)
+12.6.2021, 13:52:50 - ERROR - Failed to get users | MongoParseError: URI malformed, cannot be parsed (sid: 7NTMDT8LGNDxcpKYkFImn-70JSsTKsxN)
+12.6.2021, 13:57:38 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 13:59:58 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:00:01 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:02:49 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:02:59 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: p05AGni78WT0ZRcoKpu8_VB3k1Gd_2zg)
+12.6.2021, 14:02:59 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: p05AGni78WT0ZRcoKpu8_VB3k1Gd_2zg)
+12.6.2021, 14:03:00 - ERROR - Failed to get users | MongoParseError: URI malformed, cannot be parsed (sid: p05AGni78WT0ZRcoKpu8_VB3k1Gd_2zg)
+12.6.2021, 14:11:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:11:36 - DEBUG - auth.service - login with username: Demo User (sid: vukrAASXbHkcXfyhSaPhnnSsqn8T2mdw)
+12.6.2021, 14:48:53 - DEBUG - auth.service - login with username: Demo User (sid: kdKq1NZLmryHiFIlJ5EkD9WJuufjCcNP)
+12.6.2021, 14:48:53 - DEBUG - auth.service - login with username: Demo User (sid: 4F9RDAiNTnTRQgvDkBxQmhm20zFdlk_N)
+12.6.2021, 14:50:24 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:50:37 - DEBUG - auth.service - login with username: Demo User (sid: BsqjLWrnHRV9swTRs1jDSELSAr3-U3LJ)
+12.6.2021, 14:50:37 - DEBUG - auth.service - login with username: Demo User (sid: LEclbAH30Rk6OAoxZMa7WewDHvyl8vow)
+12.6.2021, 14:51:38 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:51:40 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:51:45 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:51:47 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:51:52 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:51:57 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:52:03 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 14:52:09 - DEBUG - auth.service - login with username: Demo User (sid: MLoWRElF9e1FeZXEocTa7nHjHsffGjA8)
+12.6.2021, 14:52:09 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: MLoWRElF9e1FeZXEocTa7nHjHsffGjA8)
+12.6.2021, 14:52:09 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: MLoWRElF9e1FeZXEocTa7nHjHsffGjA8)
+12.6.2021, 14:52:09 - ERROR - Failed to loginReferenceError: logger is not defined (sid: MLoWRElF9e1FeZXEocTa7nHjHsffGjA8)
+12.6.2021, 14:52:09 - DEBUG - auth.service - login with username: Demo User (sid: T-4K52FGBkEOF5ljGjOhhODigGpowSm6)
+12.6.2021, 14:52:09 - ERROR - Cannot Connect to DB | MongoParseError: URI malformed, cannot be parsed (sid: T-4K52FGBkEOF5ljGjOhhODigGpowSm6)
+12.6.2021, 14:52:09 - ERROR - Failed to get Mongo collection | MongoParseError: URI malformed, cannot be parsed (sid: T-4K52FGBkEOF5ljGjOhhODigGpowSm6)
+12.6.2021, 14:52:09 - ERROR - Failed to loginReferenceError: logger is not defined (sid: T-4K52FGBkEOF5ljGjOhhODigGpowSm6)
+12.6.2021, 15:05:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:05:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:05:37 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:06:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:07:09 - DEBUG - auth.service - login with username: Demo User (sid: Z2EpMFTwxTX9-kKyT-rMnoHhwU163o8r)
+12.6.2021, 15:07:09 - DEBUG - auth.service - login with username: Demo User (sid: dAHWMjMgna5QBy_g0vzqpei2U7Jhw7RL)
+12.6.2021, 15:07:09 - ERROR - Failed to loginInvalid username or password (sid: Z2EpMFTwxTX9-kKyT-rMnoHhwU163o8r)
+12.6.2021, 15:07:09 - ERROR - Failed to loginInvalid username or password (sid: dAHWMjMgna5QBy_g0vzqpei2U7Jhw7RL)
+12.6.2021, 15:07:29 - DEBUG - auth.service - login with username: Demo User (sid: a__RJwLFCMsHYJwIsDJfqL32gcVqxakq)
+12.6.2021, 15:07:29 - ERROR - Failed to loginInvalid username or password (sid: a__RJwLFCMsHYJwIsDJfqL32gcVqxakq)
+12.6.2021, 15:07:37 - DEBUG - auth.service - login with username: Demo User (sid: o-7kwEYxNgzeImPtR5Ckjq8suP6Bxclh)
+12.6.2021, 15:07:37 - ERROR - Failed to loginInvalid username or password (sid: o-7kwEYxNgzeImPtR5Ckjq8suP6Bxclh)
+12.6.2021, 15:08:26 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:13:32 - DEBUG - auth.service - login with username: Demo User (sid: NUc1QJFQS2IsefSCcGWdFslFXuPIpUfL)
+12.6.2021, 15:13:32 - ERROR - Failed to loginInvalid username or password (sid: NUc1QJFQS2IsefSCcGWdFslFXuPIpUfL)
+12.6.2021, 15:15:20 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:15:37 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:15:46 - DEBUG - auth.service - login with username: Demo User (sid: _u9eisX-0a3xO2KdDIaGUmP3Q_UQsOaT)
+12.6.2021, 15:15:47 - ERROR - Failed to loginInvalid username (sid: _u9eisX-0a3xO2KdDIaGUmP3Q_UQsOaT)
+12.6.2021, 15:18:39 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:18:44 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:18:50 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:18:52 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:18:56 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:19:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:19:05 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:19:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:19:12 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:19:15 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:19:39 - DEBUG - auth.service - login with username: Demo User (sid: ihsIhCm5RJNd0ijHEYISatDWq5tPfaV9)
+12.6.2021, 15:19:39 - ERROR - Failed to loginInvalid username (sid: ihsIhCm5RJNd0ijHEYISatDWq5tPfaV9)
+12.6.2021, 15:20:27 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:20:30 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:20:40 - DEBUG - auth.service - login with username: Demo User (sid: fHJIAc4iLoOeI9D2PZiDhArlSsje4B6v)
+12.6.2021, 15:20:40 - ERROR - Failed to loginInvalid username (sid: fHJIAc4iLoOeI9D2PZiDhArlSsje4B6v)
+12.6.2021, 15:22:50 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:12 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:18 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:27 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:37 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:23:47 - DEBUG - auth.service - login with username: Demo User (sid: yFdvd84-gnyeB4mSGftKHHJVuOBN7tRr)
+12.6.2021, 15:24:09 - ERROR - Failed to adder | TypeError: moveService.add is not a function (sid: BDC2esnvMmdk-mbuwFrTNOBlLy7WzIJc)
+12.6.2021, 15:24:24 - DEBUG - auth.service - login with username: Demo User (sid: u2LVP543zqm_-ZHP6HqBdJU000HH3So9)
+12.6.2021, 15:24:24 - DEBUG - auth.service - login with username: Demo User (sid: RsxMEn4yEeY__Z_br0JmksGpixr3y_6m)
+12.6.2021, 15:36:36 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:36:38 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:39:30 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:51:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:56:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:57:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:57:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:57:54 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:58:01 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:58:05 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:58:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:59:39 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:59:43 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:59:48 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 15:59:52 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:00:05 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:00:48 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:00:51 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:00:55 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:01:04 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:01:06 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:01:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:07:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:03 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:06 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:39 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:42 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:47 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:08:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:09:02 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:09:15 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:09:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:18:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:22:59 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:25:55 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:26:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:26:12 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:26:23 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:26:52 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:26:55 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:27:03 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:27:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:27:27 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:28:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:28:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:28:45 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:36:25 - DEBUG - auth.service - login with username: Demo User (sid: uXAZ6bfedZiZdRcwM2Ol-pCTs9T62cmL)
+12.6.2021, 16:36:26 - DEBUG - auth.service - login with username: Demo User (sid: ZzFjT5dkmBnlj_9WqScf0VFWLKxgTl5s)
+12.6.2021, 16:36:52 - ERROR - Failed to adder | TypeError: moveService.add is not a function (sid: KCS79RCvszjd6zUt0DytL2HrO_sfZ7sN)
+12.6.2021, 16:40:19 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:40:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:40:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:40:31 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:40:41 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:40:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:42:24 - DEBUG - auth.service - login with username: Demo User (sid: eVuOFr-fX3zK4KUr4WtmCU97yFNSrQQW)
+12.6.2021, 16:42:24 - DEBUG - auth.service - login with username: Demo User (sid: WK0kSs0_8y5FfhzlCKNS-SuRc1uEX0po)
+12.6.2021, 16:42:33 - ERROR - Failed to adder | TypeError: collection.insetOne is not a function (sid: CY5n1aYU3HsOXlz9hNeGqoBtZMIS5uHj)
+12.6.2021, 16:43:26 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:43:31 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:44:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:45:45 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:45:52 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:46:15 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:46:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:47:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:47:32 - ERROR - Failed to add move | TypeError: collection.insetOne is not a function (sid: 9dNwqbnWnyINlv6S6ZMyB_LZv8Z4SahL)
+12.6.2021, 16:48:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:48:12 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:48:33 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 16:49:16 - DEBUG - auth.service - login with username: Demo User (sid: eLatXwn6APIMFpEr08XJ4mI3AsTItmnN)
+12.6.2021, 16:49:16 - DEBUG - auth.service - login with username: Demo User (sid: JEylX98Khd-yl_8U7ctoVYhGhSjZ_qZN)
+12.6.2021, 16:49:26 - ERROR - Failed to update user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: jJFTiQljM0huNk_56UsnwKxyg5O7f_SW)
+12.6.2021, 17:03:00 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:04:58 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:05:26 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:05:48 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:06:08 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:09:59 - DEBUG - auth.service - login with username: Demo User (sid: QUPzoCfJKqb1thM7WGwGEVSKckPzgVeI)
+12.6.2021, 17:17:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:17:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:27:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:27:26 - DEBUG - auth.service - login with username: Demo User (sid: p7sBZt4lGiGk4FN4pyBdG9LKJ0qJxgqx)
+12.6.2021, 17:27:27 - DEBUG - auth.service - login with username: Demo User (sid: QluK2dBXqUFOM7_PbkN0EuLyN3pMCPPW)
+12.6.2021, 17:27:27 - ERROR - Failed to loginError: data and hash arguments required (sid: p7sBZt4lGiGk4FN4pyBdG9LKJ0qJxgqx)
+12.6.2021, 17:27:27 - ERROR - Failed to loginError: data and hash arguments required (sid: QluK2dBXqUFOM7_PbkN0EuLyN3pMCPPW)
+12.6.2021, 17:27:47 - DEBUG - auth.service - login with username: Demo User (sid: FOitWsmDoDy8TVvINjXmbvmE5CRrs8eC)
+12.6.2021, 17:27:47 - DEBUG - auth.service - login with username: Demo User (sid: 8DHebB5m7bsQfxb93AKGPObA-58AsDHu)
+12.6.2021, 17:27:47 - ERROR - Failed to loginError: data and hash arguments required (sid: FOitWsmDoDy8TVvINjXmbvmE5CRrs8eC)
+12.6.2021, 17:27:47 - ERROR - Failed to loginError: data and hash arguments required (sid: 8DHebB5m7bsQfxb93AKGPObA-58AsDHu)
+12.6.2021, 17:30:43 - DEBUG - auth.service - login with username: Demo User (sid: acuhJ841bQLR_29hVu5_dE_gJIFCNUqE)
+12.6.2021, 17:30:43 - DEBUG - auth.service - login with username: Demo User (sid: _vFr2XAnJBUubde-Fiuh5MiYUkZp3w1I)
+12.6.2021, 17:34:13 - DEBUG - auth.service - login with username: Demo User (sid: s1yejXC3GgPy1K6PyhSCry21E9xck77f)
+12.6.2021, 17:34:13 - ERROR - Failed to loginError: data and hash arguments required (sid: s1yejXC3GgPy1K6PyhSCry21E9xck77f)
+12.6.2021, 17:34:13 - DEBUG - auth.service - login with username: Demo User (sid: 3XuRUXmHKTWj4L6sx8hC8jfH0w0Ul7xL)
+12.6.2021, 17:34:13 - ERROR - Failed to loginError: data and hash arguments required (sid: 3XuRUXmHKTWj4L6sx8hC8jfH0w0Ul7xL)
+12.6.2021, 17:44:35 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:45:10 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:45:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:45:21 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:46:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:46:30 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:47:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:47:17 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:47:56 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:48:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:48:40 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:49:30 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:49:43 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:50:23 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:50:54 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:50:58 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:51:01 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:51:16 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:51:25 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:51:31 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:51:53 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:51:57 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:52:03 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:52:17 - DEBUG - auth.service - login with username: Demo User (sid: cQFusaSgOvLvYFvkYJYP05GHFyp5er4U)
+12.6.2021, 17:52:17 - DEBUG - auth.service - login with username: Demo User (sid: O3AKDHpzBKDjWYdCLZRVSbf1aG3YnRzX)
+12.6.2021, 17:52:23 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: 4x9PdCNjGDBrpFAdpO4ORZsg0P252VFP)
+12.6.2021, 17:54:12 - DEBUG - auth.service - login with username: Demo User (sid: o3SYfIOTNJ3gTGZlNlAq0XF_4U4o5UdC)
+12.6.2021, 17:54:12 - DEBUG - auth.service - login with username: Demo User (sid: HaFPRwi96Hmnz-pJatmVIwUXiOp44Wb7)
+12.6.2021, 17:54:21 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: Xbt2mNHlahrwe7V09bIL_JkGNCeJo2Bv)
+12.6.2021, 17:54:40 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: tiX4Z86m-V1T6w7sUH8cki5KK4bIT16g)
+12.6.2021, 17:54:40 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: mdaJN1C6UsaNfNGK5huOPlyK325Wn04F)
+12.6.2021, 17:58:32 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 17:58:44 - DEBUG - auth.service - login with username: Demo User (sid: 71cYmKRcxrL1JeuwsCK6gtqdc5uJrD-6)
+12.6.2021, 17:58:44 - DEBUG - auth.service - login with username: Demo User (sid: Ro3chzYmGL-SfoaPRhT4D5I6OZj90dtY)
+12.6.2021, 18:00:07 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:00:14 - DEBUG - auth.service - login with username: Demo User (sid: xPR4jgwHdRGWzAZGMEeOX0mLOviqp8Ne)
+12.6.2021, 18:00:14 - DEBUG - auth.service - login with username: Demo User (sid: QrFxfYdl-AjYb6sT1Yy5nZFv1I9od1Zp)
+12.6.2021, 18:00:17 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: NVSSKrZ0EfrnTWuJUbKyQjY12f8XLbQV)
+12.6.2021, 18:00:49 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: wRcgl2YB95N8CosoLmgqZZ-h6V6kb2mb)
+12.6.2021, 18:00:49 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: m3yqx4ghJCY6h66qO348qviwQcJouv7s)
+12.6.2021, 18:00:52 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: Fcn-OOTpQgTWe4ja9ujjSRBkJqtmsMye)
+12.6.2021, 18:00:52 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: yQcPemdUgThWKgmuSb1xYp4JR9X9ulUF)
+12.6.2021, 18:00:53 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: GfPSoyp1Izfb2weVRPKhMjCWq71ke4eC)
+12.6.2021, 18:00:53 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: JgyQh3IosN5dTaZAlK9dT5R6rgWKcdUD)
+12.6.2021, 18:01:00 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: aAdwRzYact8jtlaP03c9PN0fga5XXQvs)
+12.6.2021, 18:01:00 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: YZMB7ENxQghIxQCjr_asHOD1XuEEvIqG)
+12.6.2021, 18:02:11 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:02:41 - DEBUG - auth.service - login with username: Demo User (sid: W9D63cu5F-R7CBdD6Rkh44eJwRrzgHAI)
+12.6.2021, 18:02:48 - ERROR - Failed to get user | TypeError: Cannot convert undefined or null to object (sid: 2lS_0d3KPiRRb3Tn5Wbd9_IJxPXMbBgx)
+12.6.2021, 18:03:28 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:03:31 - DEBUG - auth.service - login with username: Demo User (sid: Pn3j6BrSC3jqb7cOfbnuzhavGmr4SdI9)
+12.6.2021, 18:03:31 - DEBUG - auth.service - login with username: Demo User (sid: qs4BsUfKwq7NA7AVgXEXaz_LqdrfoHrP)
+12.6.2021, 18:03:44 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: bU6UC8efHi5JkqUeHqa4cbb5OtkdYqju)
+12.6.2021, 18:03:44 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: PNFzjdTx6VeVzr0ZwORjIv2lJwyGWjt1)
+12.6.2021, 18:04:21 - DEBUG - auth.service - login with username: Demo User (sid: hfzlFJfWlUD-BGge-2NFI4GySDgmXWzR)
+12.6.2021, 18:04:21 - DEBUG - auth.service - login with username: Demo User (sid: 6cZqqIzkzgIM_-0SMexfM9FmE66J6GBW)
+12.6.2021, 18:05:00 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: yiixtDWDtYq8-ESAWUwZuphd0zOSpHDw)
+12.6.2021, 18:05:00 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: hvASh9u1dwJ7P_j-86roMguE3oBGu_hZ)
+12.6.2021, 18:07:45 - DEBUG - auth.service - login with username: Demo User (sid: i0cL8U8E-je3T7aZRL_LG3lnmAvEksK0)
+12.6.2021, 18:07:45 - DEBUG - auth.service - login with username: Demo User (sid: PUuRkqRK47Vi3IKjSPvclGOO0JNcTwBf)
+12.6.2021, 18:08:10 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 0gB8YcIHwY37WF0STorRwBwgwYDfJk3U)
+12.6.2021, 18:08:33 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: gT_m_xt-H0DJQVtbkhSY2H8rOk46lpwZ)
+12.6.2021, 18:08:33 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: AbP1IByRlTtC9crVs-VK-Rferx2DRnh_)
+12.6.2021, 18:08:38 - ERROR - Failed to update user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: Jw8N8DVYLwXOwc5a_JBagelqhxN5XThE)
+12.6.2021, 18:08:47 - DEBUG - auth.service - login with username: Demo User (sid: PqPngEZOHfzxXD4xt6q2Ve4gCA35lCbF)
+12.6.2021, 18:08:47 - DEBUG - auth.service - login with username: Demo User (sid: V1ecfFfPhWG1zjjFZrmI55MjSe4sE112)
+12.6.2021, 18:09:40 - DEBUG - auth.service - signup with username: noakimmel,fullname:Noa Kimmel (sid: UfbaUhWCkZd5kpStmZ0LFaUgVR3I3VjQ)
+12.6.2021, 18:09:40 - ERROR - Failed to signup | null (sid: UfbaUhWCkZd5kpStmZ0LFaUgVR3I3VjQ)
+12.6.2021, 18:11:47 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:18:28 - DEBUG - auth.service - login with username: Demo User (sid: xCXFyVx0-bQgdvQXGj-9Y2QszkaTUW5X)
+12.6.2021, 18:18:28 - DEBUG - auth.service - login with username: Demo User (sid: VOG5HiwWKh92HN09mKd_YeodcvjCYLsw)
+12.6.2021, 18:23:07 - DEBUG - auth.service - login with username: Demo User (sid: j4j13vN63D2gauzQvdz7Z5eWkRrifumc)
+12.6.2021, 18:23:07 - DEBUG - auth.service - login with username: Demo User (sid: 2UvmsvgbdOVmPVIe5P0_2JQUEgGxO5I5)
+12.6.2021, 18:25:01 - DEBUG - auth.service - login with username: Demo User (sid: _frmluMHL1qt7IDPAk8N_qikIFLRjUpM)
+12.6.2021, 18:25:29 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: LUWLm6oK21OwPKYK5nNjAY7VvWUjDyoo)
+12.6.2021, 18:27:45 - DEBUG - auth.service - login with username: Demo User (sid: st7Ql3dE5gw3si5ayX2QDUnr6KX7AAFR)
+12.6.2021, 18:28:08 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: b2VioPG3wghlq05quSAxRqh5MeyWDKLY)
+12.6.2021, 18:30:10 - DEBUG - auth.service - login with username: Demo User (sid: kX7PsW2IcwZY4Da4uOWxb2vTOxoN-mJH)
+12.6.2021, 18:30:10 - DEBUG - auth.service - login with username: Demo User (sid: fGi6jiRTlP3V_SaY8eCtlZD1KVTPH3ZG)
+12.6.2021, 18:30:19 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: pwyzUSWYuQfE4kbTH3rkuKlDBDywj6S6)
+12.6.2021, 18:30:19 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: n1OHnWm3avzw5A_zvQQ3Di3-AWgw3-co)
+12.6.2021, 18:37:57 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:38:06 - DEBUG - auth.service - login with username: Demo User (sid: 6tgDQ5yCDYj_brIKX69psD2eyT-9sK5-)
+12.6.2021, 18:38:06 - DEBUG - auth.service - login with username: Demo User (sid: u7kteAglkcy5f6nBtEN_UCtac-q6iqH2)
+12.6.2021, 18:39:10 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: -bDCGb1ya73oiqc8rHw4xiv6GpBPnHf5)
+12.6.2021, 18:40:21 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: QNPVwNRBgDNCZpkRZFoOp8sogb16MmKu)
+12.6.2021, 18:40:21 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: WBdFjH0yTyc7-zGtswRqpNPKRotRLCP0)
+12.6.2021, 18:49:30 - DEBUG - auth.service - login with username: Demo User (sid: aEVP4SACzI5yN1DYCgXNJZpYjW1q8wu_)
+12.6.2021, 18:49:30 - DEBUG - auth.service - login with username: Demo User (sid: XG6DHoiOThFLrBfhfjHiUIraEOMzGts4)
+12.6.2021, 18:50:13 - ERROR - Failed to update user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 56RK84pHGdmaWFJU9lZGgXGQEhbFpXGu)
+12.6.2021, 18:54:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:55:01 - DEBUG - auth.service - login with username: Demo User (sid: 28Km-wxDG_QbZVGL5s2bCdVIxSog_ef8)
+12.6.2021, 18:55:01 - DEBUG - auth.service - login with username: Demo User (sid: u_wZbpGGnNVCbmeksAcwEz3pm2zIjZPZ)
+12.6.2021, 18:55:28 - ERROR - Failed to update user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: yrapqag3m7beobYh4caf19UH4QfJ2OCS)
+12.6.2021, 18:57:33 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:57:54 - DEBUG - auth.service - login with username:  (sid: 5dRpZT-7uC0eSKdqUUZ5K8QPDnYfcArH)
+12.6.2021, 18:57:54 - ERROR - Failed to loginInvalid username (sid: 5dRpZT-7uC0eSKdqUUZ5K8QPDnYfcArH)
+12.6.2021, 18:57:56 - DEBUG - auth.service - login with username: Demo User (sid: zaOBe-WdY17L1yakR-B3dertYnLmNgiR)
+12.6.2021, 18:57:56 - DEBUG - auth.service - login with username: Demo User (sid: g7eoHRyMNLfFO6TLt6YeBmdY8IJ-PSmm)
+12.6.2021, 18:58:11 - ERROR - Failed to update user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: ezVzrZoYd14N0clPAO7FgQiYinTqDaYM)
+12.6.2021, 18:59:14 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 18:59:46 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 19:00:01 - DEBUG - auth.service - login with username: Demo User (sid: iPy2SSHYqU6QRtDfzWpj68BKeA74Vhhm)
+12.6.2021, 19:00:01 - DEBUG - auth.service - login with username: Demo User (sid: xZlnHJZ2_9-DNteCp4OsE5AoCZsg03v6)
+12.6.2021, 19:08:27 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 19:08:29 - INFO - Backend ready at http://localhost:3030 
+12.6.2021, 22:16:57 - DEBUG - auth.service - login with username: Demo User (sid: AWFm2_7xSwnLvrG57KEbVAlZIgXNb8KH)
+12.6.2021, 22:20:22 - DEBUG - auth.service - login with username: Demo User (sid: urPtdDSnr7f2JQKiBWb65-wd8sx8Jm5T)
+12.6.2021, 22:20:22 - DEBUG - auth.service - login with username: Demo User (sid: yQsjnF8J5Kujb2y2gcuNU9qVhEEAxJf_)
+14.6.2021, 8:27:37 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 8:44:36 - DEBUG - auth.service - login with username: Demo User (sid: Sk5n855ybyqoyA0M-BuP1wmdrqlTuRI4)
+14.6.2021, 8:53:56 - DEBUG - auth.service - login with username: Demo User (sid: pbN8M13T_lLNhyNO5bCJcj-DUl9m3dQI)
+14.6.2021, 8:53:56 - DEBUG - auth.service - login with username: Demo User (sid: 1b56_3OwlBOVRtHFO8a3EUxuExcp_cXF)
+14.6.2021, 9:05:08 - DEBUG - auth.service - login with username: Demo User (sid: j0XtpiGju-HvQylAY6yzF_cjAK45Ccyn)
+14.6.2021, 9:05:08 - DEBUG - auth.service - login with username: Demo User (sid: 7Qfp5KRAL1J1ht3ps2B55NDihww35Nuc)
+14.6.2021, 9:05:43 - DEBUG - auth.service - login with username: Demo User (sid: xiPVDfP88UEBtv6RooNOeh8CehxR57rd)
+14.6.2021, 9:05:43 - DEBUG - auth.service - login with username: Demo User (sid: Be-SuhVdiakGqKGbx2lk10qBr1HCX6ea)
+14.6.2021, 9:06:31 - DEBUG - auth.service - login with username: Demo User (sid: yKp2KarLaQNZES0fwDbrMpt8RcW8BlPU)
+14.6.2021, 9:06:31 - DEBUG - auth.service - login with username: Demo User (sid: yOiX6pZ4GMKRV6oCc_3t80SPQE3oV8nF)
+14.6.2021, 9:15:50 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:30 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:33 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:36 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:40 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:43 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:47 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:18:49 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:19:00 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:19:04 - DEBUG - auth.service - login with username: Demo User (sid: NzBu_4kCPeAMNKXVKM7IZgyLbv4KfnUU)
+14.6.2021, 9:19:04 - DEBUG - auth.service - login with username: Demo User (sid: ng-Ttwp7OJ9N7cqfiFnd2pWA0uGMH5R7)
+14.6.2021, 9:31:35 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:31:40 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:32:07 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:32:26 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:32:38 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:32:43 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:32:48 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:32:52 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 9:34:05 - DEBUG - auth.service - login with username: Demo User (sid: 5g9dIs3IOtZSXYtmptBluDw1HEx0fBr9)
+14.6.2021, 9:34:05 - DEBUG - auth.service - login with username: Demo User (sid: 5aJMzfNLrNrd_p328sT2n_luhr-YlgF3)
+14.6.2021, 9:56:55 - DEBUG - auth.service - login with username: Demo User (sid: TqBPlpFLoNU79e-S07rAPxoGSDJvWMdF)
+14.6.2021, 9:56:55 - DEBUG - auth.service - login with username: Demo User (sid: 2Swn_Rmf2gXIytGDZatJ9_UGhNF_tNDf)
+14.6.2021, 14:02:53 - DEBUG - auth.service - login with username: Demo User (sid: d8nbDvsrQYyzZ3WXggDwrEsgIONBdvbO)
+14.6.2021, 14:02:53 - DEBUG - auth.service - login with username: Demo User (sid: 5gE5DaFMV-zapqOYj32YU-5EaQo6WMIY)
+14.6.2021, 14:25:49 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 14:25:52 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 14:27:13 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 14:28:15 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 14:28:34 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 17:01:20 - DEBUG - auth.service - login with username:  (sid: 3ZURpNpWvvXEwtb24jeV_qxf2MnPx4r2)
+14.6.2021, 17:01:20 - ERROR - Failed to loginInvalid username (sid: 3ZURpNpWvvXEwtb24jeV_qxf2MnPx4r2)
+14.6.2021, 17:01:22 - DEBUG - auth.service - login with username:  (sid: qGQtPvtribNkvRD-6SQapWQmzY7Kl0iT)
+14.6.2021, 17:01:22 - ERROR - Failed to loginInvalid username (sid: qGQtPvtribNkvRD-6SQapWQmzY7Kl0iT)
+14.6.2021, 17:01:24 - DEBUG - auth.service - login with username: Demo User (sid: vhcHgAyiTDBIX_QfUe_v8coCq_3haRAS)
+14.6.2021, 17:01:24 - DEBUG - auth.service - login with username: Demo User (sid: Iy9eZkoXpEc96GysDcXplQWurH02QEf5)
+14.6.2021, 17:01:57 - DEBUG - auth.service - login with username: Demo User (sid: iMy3i-4B7Ujc8LHL00YXwVW2a1ToN-wf)
+14.6.2021, 17:01:57 - DEBUG - auth.service - login with username: Demo User (sid: gZmj7p3ijmwcz821SL7j4qvHXOoQdFUv)
+14.6.2021, 20:59:12 - DEBUG - auth.service - login with username: Demo User (sid: ONuxpoRJ14dTFVtV4t2k7DHyJTiSMFJ3)
+14.6.2021, 20:59:13 - DEBUG - auth.service - login with username: Demo User (sid: aI_GNIBdmRs9UYCrUkkCWM7efcuKIKx7)
+14.6.2021, 20:59:23 - DEBUG - auth.service - login with username: Demo User (sid: 5CiesTt4i1kMfJT7p3rscW2MOvuoLm8l)
+14.6.2021, 20:59:23 - DEBUG - auth.service - login with username: Demo User (sid: 0KCXbsYnIUF-jL9jkgvjH9wkNe14unfn)
+14.6.2021, 21:01:25 - DEBUG - auth.service - login with username: Demo User (sid: HPbwueMWv8KsM8zrwaaKPWjO7TanF_ES)
+14.6.2021, 21:01:25 - DEBUG - auth.service - login with username: Demo User (sid: O7xXd-c1OnZud2R2mHWbWyEB0TC4bzbC)
+14.6.2021, 21:02:12 - DEBUG - auth.service - login with username: Demo User (sid: VTTphrNRPo2CF2Cv_qCyqDblE3aH1tFx)
+14.6.2021, 21:02:12 - DEBUG - auth.service - login with username: Demo User (sid: 8mh_z8blZQ9EXo4P3g2AeaU0V10zCuGJ)
+14.6.2021, 22:18:16 - DEBUG - auth.service - login with username: Demo User (sid: KhUCSmW3IJ-5mx15rBotJBvU6TxZEmkx)
+14.6.2021, 22:18:16 - DEBUG - auth.service - login with username: Demo User (sid: Jymnd2ymtnKyA2CMGMfMAJuboAXSFyog)
+14.6.2021, 23:00:15 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:02:30 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:02:44 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:02:51 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:02:58 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:03:11 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:03:37 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:04:11 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:04:33 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:05:38 - DEBUG - auth.service - login with username: Demo User (sid: P_WTuaqCNOE4sGL6hVMJTfNN8eaq0I-v)
+14.6.2021, 23:05:38 - DEBUG - auth.service - login with username: Demo User (sid: aqRGaXCTiru4cjcYClqdqfW2PNYhy3Nd)
+14.6.2021, 23:05:38 - ERROR - Failed to loginInvalid username (sid: P_WTuaqCNOE4sGL6hVMJTfNN8eaq0I-v)
+14.6.2021, 23:05:38 - ERROR - Failed to loginInvalid username (sid: aqRGaXCTiru4cjcYClqdqfW2PNYhy3Nd)
+14.6.2021, 23:05:44 - DEBUG - auth.service - login with username: Demo User (sid: fKYMPWY3PZ61fMgsz6iOLNIAOvkaRS3Z)
+14.6.2021, 23:05:44 - DEBUG - auth.service - login with username: Demo User (sid: 93sWMkAlbDpuDT9LThfCAheLSDXAZyl4)
+14.6.2021, 23:05:44 - ERROR - Failed to loginInvalid username (sid: fKYMPWY3PZ61fMgsz6iOLNIAOvkaRS3Z)
+14.6.2021, 23:05:44 - ERROR - Failed to loginInvalid username (sid: 93sWMkAlbDpuDT9LThfCAheLSDXAZyl4)
+14.6.2021, 23:05:46 - DEBUG - auth.service - login with username: Demo User (sid: USUFVrh8rmAGngwTgbGXn4tEgbUTCtui)
+14.6.2021, 23:05:46 - DEBUG - auth.service - login with username: Demo User (sid: MDF9qqlr_1xmXCBbuI1TgH7uEPb-8-FY)
+14.6.2021, 23:05:46 - ERROR - Failed to loginInvalid username (sid: USUFVrh8rmAGngwTgbGXn4tEgbUTCtui)
+14.6.2021, 23:05:46 - ERROR - Failed to loginInvalid username (sid: MDF9qqlr_1xmXCBbuI1TgH7uEPb-8-FY)
+14.6.2021, 23:05:55 - DEBUG - auth.service - login with username: Demo User (sid: zwnvZpOvjkuUg_rWinPE-k64Gh2prOQP)
+14.6.2021, 23:05:55 - DEBUG - auth.service - login with username: Demo User (sid: 7SOTXrOZr7h6N1_11Qu2gRL4ol_M4XfN)
+14.6.2021, 23:05:55 - ERROR - Failed to loginInvalid username (sid: zwnvZpOvjkuUg_rWinPE-k64Gh2prOQP)
+14.6.2021, 23:05:55 - ERROR - Failed to loginInvalid username (sid: 7SOTXrOZr7h6N1_11Qu2gRL4ol_M4XfN)
+14.6.2021, 23:06:11 - DEBUG - auth.service - login with username: Demo User (sid: TPHGo_Yg0nzMI34rhNaZFpkrgz4wnnOV)
+14.6.2021, 23:06:11 - DEBUG - auth.service - login with username: Demo User (sid: 7Lksy5udS9q_evkyqREhkbJLXP4OjmFm)
+14.6.2021, 23:06:11 - ERROR - Failed to loginInvalid username (sid: TPHGo_Yg0nzMI34rhNaZFpkrgz4wnnOV)
+14.6.2021, 23:06:11 - ERROR - Failed to loginInvalid username (sid: 7Lksy5udS9q_evkyqREhkbJLXP4OjmFm)
+14.6.2021, 23:06:12 - DEBUG - auth.service - login with username: Demo User (sid: E1YnuY3GoJcdpGNl2ilsXrNd67C9jtoI)
+14.6.2021, 23:06:12 - DEBUG - auth.service - login with username: Demo User (sid: 5uLG1Q6S86rDBBc-0VHOMb42bnrhGEB7)
+14.6.2021, 23:06:13 - ERROR - Failed to loginInvalid username (sid: E1YnuY3GoJcdpGNl2ilsXrNd67C9jtoI)
+14.6.2021, 23:06:13 - ERROR - Failed to loginInvalid username (sid: 5uLG1Q6S86rDBBc-0VHOMb42bnrhGEB7)
+14.6.2021, 23:06:24 - DEBUG - auth.service - login with username: Demo User (sid: pvsdOq-QsxFBPqmYB-GKjTqACv0nJ4IX)
+14.6.2021, 23:06:24 - DEBUG - auth.service - login with username: Demo User (sid: EByBynEyiDZHWO9MM2_xl3K2TvHdchD_)
+14.6.2021, 23:06:24 - ERROR - Failed to loginInvalid username (sid: pvsdOq-QsxFBPqmYB-GKjTqACv0nJ4IX)
+14.6.2021, 23:06:24 - ERROR - Failed to loginInvalid username (sid: EByBynEyiDZHWO9MM2_xl3K2TvHdchD_)
+14.6.2021, 23:06:27 - DEBUG - auth.service - login with username: Demo User (sid: Vh5fmv4MCzvG3jaOPX0bcKaDuJNxsw0U)
+14.6.2021, 23:06:27 - DEBUG - auth.service - login with username: Demo User (sid: Kooh063_eBI7AZPu48JyBH6iG0oicNOo)
+14.6.2021, 23:06:27 - ERROR - Failed to loginInvalid username (sid: Vh5fmv4MCzvG3jaOPX0bcKaDuJNxsw0U)
+14.6.2021, 23:06:27 - ERROR - Failed to loginInvalid username (sid: Kooh063_eBI7AZPu48JyBH6iG0oicNOo)
+14.6.2021, 23:06:50 - DEBUG - auth.service - login with username: Demo User (sid: xQcmBHNz13-v296mV6ha1N_xlBROkILh)
+14.6.2021, 23:06:50 - ERROR - Failed to loginInvalid username (sid: xQcmBHNz13-v296mV6ha1N_xlBROkILh)
+14.6.2021, 23:06:50 - DEBUG - auth.service - login with username: Demo User (sid: 5zlYV4RzQB5SqapWFGe2dxiTx5MHQ92l)
+14.6.2021, 23:06:50 - ERROR - Failed to loginInvalid username (sid: 5zlYV4RzQB5SqapWFGe2dxiTx5MHQ92l)
+14.6.2021, 23:12:38 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:18:37 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:27:59 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:28:01 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:28:13 - DEBUG - auth.service - login with username: Demo User (sid: dACOYzZ5tC-ONnpcn6eIVM3bMitjXdmc)
+14.6.2021, 23:28:13 - DEBUG - auth.service - login with username: Demo User (sid: 8z-HcmSXTFyd6xDElnbI5gQd_IA1Aj4G)
+14.6.2021, 23:28:16 - ERROR - Failed to loginInvalid username (sid: dACOYzZ5tC-ONnpcn6eIVM3bMitjXdmc)
+14.6.2021, 23:28:16 - ERROR - Failed to loginInvalid username (sid: 8z-HcmSXTFyd6xDElnbI5gQd_IA1Aj4G)
+14.6.2021, 23:28:26 - DEBUG - auth.service - login with username: Demo User (sid: 3S5PpAS_RFlZtlPfVFLbUwSnsA2SzPgI)
+14.6.2021, 23:28:26 - DEBUG - auth.service - login with username: Demo User (sid: _Xd5BUIm2B3YFIzmcRHD3rLmFmkRlPV_)
+14.6.2021, 23:28:26 - ERROR - Failed to loginInvalid username (sid: 3S5PpAS_RFlZtlPfVFLbUwSnsA2SzPgI)
+14.6.2021, 23:28:26 - ERROR - Failed to loginInvalid username (sid: _Xd5BUIm2B3YFIzmcRHD3rLmFmkRlPV_)
+14.6.2021, 23:50:53 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:50:57 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:51:01 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:51:03 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:51:08 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:51:12 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:51:23 - INFO - Backend ready at http://localhost:3030 
+14.6.2021, 23:51:46 - DEBUG - auth.service - login with username: Demo User (sid: hoQi7nkiJn9NG4vWzGNwohb_qFmoJSKu)
+14.6.2021, 23:51:46 - DEBUG - auth.service - login with username: Demo User (sid: Dgas4woLHzl_bmkzcQ3OhmtuidShEBSh)
+14.6.2021, 23:51:48 - DEBUG - auth.service - login with username: Demo User (sid: g1ifgSBrmrq9FSTqKChXo0KUHyn3B5Jp)
+14.6.2021, 23:51:49 - DEBUG - auth.service - login with username: Demo User (sid: wdRKgc-aicfh5Kt6IavczdYxJc-Og--P)
+14.6.2021, 23:51:49 - ERROR - Failed to loginInvalid username (sid: Dgas4woLHzl_bmkzcQ3OhmtuidShEBSh)
+14.6.2021, 23:51:49 - ERROR - Failed to loginInvalid username (sid: hoQi7nkiJn9NG4vWzGNwohb_qFmoJSKu)
+14.6.2021, 23:51:49 - ERROR - Failed to loginInvalid username (sid: g1ifgSBrmrq9FSTqKChXo0KUHyn3B5Jp)
+14.6.2021, 23:51:49 - ERROR - Failed to loginInvalid username (sid: wdRKgc-aicfh5Kt6IavczdYxJc-Og--P)
+15.6.2021, 0:07:03 - DEBUG - auth.service - login with username: Demo User (sid: geLDIN1io0NIt52FKCVUc0vb9C9Lw6_-)
+15.6.2021, 0:07:03 - DEBUG - auth.service - login with username: Demo User (sid: IThz1KrMs-ux-GOg74QgF4vf1VygGAMi)
+15.6.2021, 0:07:03 - ERROR - Failed to loginInvalid username (sid: geLDIN1io0NIt52FKCVUc0vb9C9Lw6_-)
+15.6.2021, 0:07:03 - ERROR - Failed to loginInvalid username (sid: IThz1KrMs-ux-GOg74QgF4vf1VygGAMi)
+15.6.2021, 0:07:48 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 0:08:07 - DEBUG - auth.service - login with username: Demo User (sid: d8do-seotY9VMsgtWtGS75HeXMMNoZny)
+15.6.2021, 0:08:07 - DEBUG - auth.service - login with username: Demo User (sid: 3uDxtx8Naflt8mGTMacEtFQcnNzYotgi)
+15.6.2021, 0:08:09 - ERROR - Failed to loginInvalid username (sid: d8do-seotY9VMsgtWtGS75HeXMMNoZny)
+15.6.2021, 0:08:09 - ERROR - Failed to loginInvalid username (sid: 3uDxtx8Naflt8mGTMacEtFQcnNzYotgi)
+15.6.2021, 0:09:41 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 0:09:43 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 0:09:46 - DEBUG - auth.service - login with username: Demo User (sid: IgCn_0IMIT7wmxDbwBv_lvGGsnDLpbKI)
+15.6.2021, 0:09:46 - DEBUG - auth.service - login with username: Demo User (sid: Vkt6H0Q5Ty4JLolBNmC2N7cdIDbAzk5q)
+15.6.2021, 0:09:48 - ERROR - Failed to loginInvalid username (sid: Vkt6H0Q5Ty4JLolBNmC2N7cdIDbAzk5q)
+15.6.2021, 0:09:48 - ERROR - Failed to loginInvalid username (sid: IgCn_0IMIT7wmxDbwBv_lvGGsnDLpbKI)
+15.6.2021, 10:48:24 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 10:48:31 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 10:48:33 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 10:48:48 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 10:49:00 - DEBUG - auth.service - login with username: Demo User (sid: QdnwJjk-NguUkX0hrYKGdaBrw3dnwYk_)
+15.6.2021, 10:49:00 - DEBUG - auth.service - login with username: Demo User (sid: 4AinViIpe00BfEsXDtm4VqtQcPnwGkDt)
+15.6.2021, 10:57:42 - DEBUG - auth.service - login with username: Demo User (sid: _cMuCqZjCrHAVpvA61qLLVmRIoz7q0eE)
+15.6.2021, 10:57:42 - DEBUG - auth.service - login with username: Demo User (sid: cPuejUl3cMhhkNlgg7_tzmDJ0DYCl04Z)
+15.6.2021, 11:12:28 - DEBUG - auth.service - login with username: Demo User (sid: C5SNDqYXCZD7fkfNIlNh5Cy_nAty3W_T)
+15.6.2021, 11:12:28 - DEBUG - auth.service - login with username: Demo User (sid: GPjq19N2O71qU747bwTO8GS-hQ-I2rKe)
+15.6.2021, 11:18:53 - DEBUG - auth.service - login with username: Demo User (sid: 7S8ClMn5y1jdqbKjJKXwjyciLiZjpn5A)
+15.6.2021, 11:18:53 - DEBUG - auth.service - login with username: Demo User (sid: ligDcW9gof4FNoi2pQsa3taAYYKsHafT)
+15.6.2021, 11:22:02 - DEBUG - auth.service - login with username: Demo User (sid: YdjHOPEDha_PbM_KmfgGasYZATLA-g2k)
+15.6.2021, 11:22:02 - DEBUG - auth.service - login with username: Demo User (sid: BCx8C2QrddicjPbLW-e29xJFZ3ECNpxp)
+15.6.2021, 11:23:35 - DEBUG - auth.service - login with username: Demo User (sid: k6ilqrdKXrlbXttyxvIqpglw2p6eIRYh)
+15.6.2021, 11:23:35 - DEBUG - auth.service - login with username: Demo User (sid: pkygS71xiXzU3V6zY7p0bb4ZtBlNooV9)
+15.6.2021, 11:24:21 - DEBUG - auth.service - login with username: Demo User (sid: 5zxMQsfkKU_HTDreL4-AwvES1Zmw_Ikv)
+15.6.2021, 11:24:21 - DEBUG - auth.service - login with username: Demo User (sid: HWduU-US3-0jc-Xxru1P6UgN2NICXEuO)
+15.6.2021, 11:25:06 - DEBUG - auth.service - login with username: Demo User (sid: xYwEysfXc6S4JVFSpmdnKRaz-q0YoahI)
+15.6.2021, 11:25:06 - DEBUG - auth.service - login with username: Demo User (sid: 4VLDoeNU7X4uGBkb623do118tgZ7rG-R)
+15.6.2021, 11:25:19 - DEBUG - auth.service - login with username: Demo User (sid: 1fbqOL3exCxeI6ctlSyL60vNBmJ-SfLn)
+15.6.2021, 11:25:19 - DEBUG - auth.service - login with username: Demo User (sid: 2EBO8oHchVu4bpQ7nIbLYi0h7f2r2ZsL)
+15.6.2021, 11:29:20 - DEBUG - auth.service - login with username: Demo User (sid: ct6zI_oepZG_G2k5eZl3R8KcWdGm_Lwx)
+15.6.2021, 11:33:05 - DEBUG - auth.service - login with username: Demo User (sid: fNE4ZA70nlBbrGZ0pgpK3Rck5dJG-Msw)
+15.6.2021, 11:33:05 - DEBUG - auth.service - login with username: Demo User (sid: PCWnJwVFcmIUcGjxKNdS4PSXb6xFH_aC)
+15.6.2021, 11:34:11 - DEBUG - auth.service - login with username: Demo User (sid: 2CODm3TXza76arzvF54ktrr4Ibe1yENY)
+15.6.2021, 11:34:11 - DEBUG - auth.service - login with username: Demo User (sid: gtmZ-Yby9QfbuakmM3ZebnFwAIEK1sCt)
+15.6.2021, 11:35:04 - DEBUG - auth.service - login with username: Demo User (sid: aJkdjevQU2mwCx6iQFMn1jqlptU9kRsU)
+15.6.2021, 11:35:05 - DEBUG - auth.service - login with username: Demo User (sid: EpyW_ioVSXd_jsEryfKhVrRyuE-LlJk0)
+15.6.2021, 11:35:30 - DEBUG - auth.service - login with username: Demo User (sid: 6i6h0rOyfuGOdXDEQpo7c0UMLn2R07L0)
+15.6.2021, 11:35:30 - DEBUG - auth.service - login with username: Demo User (sid: gUxN8xVNnZIvtWL0H-2hvlwU6G7TdilT)
+15.6.2021, 11:35:50 - DEBUG - auth.service - login with username: Demo User (sid: 6ub4BUSqvoq5_OvUDB19sWkEYNTLbl61)
+15.6.2021, 11:35:50 - DEBUG - auth.service - login with username: Demo User (sid: RKtkKnzEmOms5-U_yrjoAYvF96QHH1eO)
+15.6.2021, 11:36:26 - DEBUG - auth.service - login with username: Demo User (sid: ejF7GISSlyl-J1QD9Imdam_cLdR6645w)
+15.6.2021, 11:36:26 - DEBUG - auth.service - login with username: Demo User (sid: miAEPx52RTOjGVNU993j4YDa7ntPoKus)
+15.6.2021, 11:43:28 - DEBUG - auth.service - login with username: Demo User (sid: F2o6UgS5RHRW4iWAJLLHCeCpipC6347y)
+15.6.2021, 11:43:28 - DEBUG - auth.service - login with username: Demo User (sid: Za7C31Gx_xRjrOqNNZnxsAWmAqc8ORZ1)
+15.6.2021, 11:47:14 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 11:47:16 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:00:00 - DEBUG - auth.service - login with username: Demo User (sid: Y6NqT4xHr8bAIxaP_Zvh9TMmm8V1NaHj)
+15.6.2021, 12:00:00 - DEBUG - auth.service - login with username: Demo User (sid: ZqwZdJf3Xd8XpT9_Knmj28Acj4ySwokC)
+15.6.2021, 12:00:00 - DEBUG - auth.service - login with username: Demo User (sid: bPpSP7U_Qa3kTmPc1eLKeVWnfX-I2nd-)
+15.6.2021, 12:00:00 - DEBUG - auth.service - login with username: Demo User (sid: hDuorE6haYI0FKNPZVs2VwUueRtmyfeQ)
+15.6.2021, 12:01:06 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:11 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:22 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:29 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:31 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:36 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:39 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:46 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:01:49 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:08:13 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:08:21 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:11:17 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:11:19 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:11:24 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 12:12:15 - DEBUG - auth.service - login with username: Demo User (sid: oYrf0QKKVNOi7hlU8pl5ThD6dsgxOcBx)
+15.6.2021, 12:12:15 - DEBUG - auth.service - login with username: Demo User (sid: xduy9ckvsr7E71H9BmJji0ze-ycSG8ew)
+15.6.2021, 12:17:32 - DEBUG - auth.service - login with username: Demo User (sid: H8jMYLTi6IIcSU5neCrkz15JMpaY4YpW)
+15.6.2021, 12:17:32 - DEBUG - auth.service - login with username: Demo User (sid: cZP5cvwTk_iA3x9UvE9zntLXJsoIqH9e)
+15.6.2021, 12:18:00 - DEBUG - auth.service - login with username: Demo User (sid: PNDWe7DUSrI3JlfeGUDqbyAAMr3HjulC)
+15.6.2021, 12:18:00 - DEBUG - auth.service - login with username: Demo User (sid: 5xyzzuhk0grubjxTf04KX4xkarkeBsLz)
+15.6.2021, 12:31:16 - DEBUG - auth.service - login with username: Demo User (sid: sTxLY26RS4mjjWKTn1MSL1Ho5zKEdR7K)
+15.6.2021, 12:31:16 - DEBUG - auth.service - login with username: Demo User (sid: xGKj9IcJGEwvTYb6K1tBlDbGHmwKtTnh)
+15.6.2021, 12:31:27 - DEBUG - auth.service - login with username: Demo User (sid: enwdWjwhuIHxgDEKVGKnKzWzmBOrblpx)
+15.6.2021, 12:31:27 - DEBUG - auth.service - login with username: Demo User (sid: G89chQ5-pPECb-mmhHkl4NPeqkGjWp8w)
+15.6.2021, 12:37:17 - DEBUG - auth.service - login with username: Demo User (sid: KdOrnn3KlueoQc0IQU7Ve0HE16vNEfBm)
+15.6.2021, 12:37:17 - DEBUG - auth.service - login with username: Demo User (sid: nnPsXUwA_T98XnNtzT1zYC6Oc8w_I1Fw)
+15.6.2021, 12:44:30 - DEBUG - auth.service - login with username: Demo User (sid: 1RXt8Vob8UluOBr17zvffxU56JtTwbQQ)
+15.6.2021, 12:44:30 - DEBUG - auth.service - login with username: Demo User (sid: SIx_PWtJhbzpSIqf8yftwMwo4PdMMyTS)
+15.6.2021, 12:53:31 - DEBUG - auth.service - login with username: Demo User (sid: XkKAXp8m_Aqh5B8IbLLwbbaeIPw0MNSB)
+15.6.2021, 12:53:31 - DEBUG - auth.service - login with username: Demo User (sid: 6SkSY4MiUGBthb9zw-yCrFYxXDUk7Dvx)
+15.6.2021, 14:31:27 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:31:32 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:31:36 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:33:13 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:33:30 - DEBUG - auth.service - login with username: Demo User (sid: xjFlRxzm8OBKWdw_dVguz22rreyVNNuT)
+15.6.2021, 14:33:33 - ERROR - Failed to loginInvalid username (sid: xjFlRxzm8OBKWdw_dVguz22rreyVNNuT)
+15.6.2021, 14:36:40 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:36:43 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:36:46 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:36:59 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:37:12 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:37:21 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:37:24 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:00 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:11 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:14 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:21 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:23 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:24 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:31 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:34 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:41 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:43 - INFO - Backend ready at http://localhost:3030 
+15.6.2021, 14:38:54 - DEBUG - auth.service - login with username: Demo User (sid: QDZ-EIjx3b2GQaK-mrPQ4yyO4zzhdkbO)
+15.6.2021, 14:38:58 - DEBUG - auth.service - login with username: Demo User (sid: tgaVf54s-x9sLdfBh7VfWI7GhE3Z0sMe)
