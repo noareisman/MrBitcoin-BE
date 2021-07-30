@@ -22,8 +22,12 @@ async function query(filterBy = {}) {
     try {
         const collection = await dbService.getCollection('user')//creating connection
         // console.log('connected to mongo');
-        const users = await collection.find(criteria).toArray()         
-        return users
+        const users = await collection.find(criteria).toArray()  
+        const usersToReturn=JSON.parse(JSON.stringify(users)).map((user)=>{
+            delete user.password
+            return user
+        })       
+        return usersToReturn
     } catch (err) {
         console.log(`ERROR: Cannot get users`)
         throw err
@@ -48,8 +52,7 @@ async function getById(userId) {
     try {
         const collection = await dbService.getCollection('user')//creating connection
         const user = await collection.findOne({ "_id": ObjectId(userId) })
-        console.log(user);
-        // delete user.password
+        delete user.password
         return user
     } catch (err) {
         console.log(`ERROR:cannot find user by id: ${userId}`)
@@ -61,7 +64,7 @@ async function getByUsername(username) {
     try {
         const collection = await dbService.getCollection('user')
         const user = await collection.findOne({ username })
-        console.log('got user:',user)
+        //Not removing password so it can be compared to user input at auth service
         return user
     } catch (err) {
         logger.error(`while finding contact ${username}`, err)
@@ -102,7 +105,10 @@ async function update(user) {
         // if (!isAdmin) query.creatorId = ObjectId(userId)//only creator of user or admin can make changes
         const collection = await dbService.getCollection('user')
         await collection.updateOne(query, { $set: userToSave })
-        return await collection.findOne(query)
+        const savedUser= await collection.findOne(query)
+        const userToReturn={...savedUser}
+        delete userToReturn.password
+        return userToReturn
     } catch (err) {
         console.log(`ERROR:cannot update user ${user._id}`)
         throw err
@@ -123,7 +129,9 @@ async function add(user) {
         }
         const collection = await dbService.getCollection('user')
         await collection.insertOne(userToSave)
-        return userToSave
+        const userToReturn={...userToSave}
+        delete userToReturn.password
+        return userToReturn
     } catch (err) {
         console.log(`ERROR:cannot add user ${user._id}`,err)
         throw err

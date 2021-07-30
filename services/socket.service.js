@@ -1,12 +1,11 @@
-const orderService = require('../api/order/order.service')
-const userService = require('../api/user/user.service')
-const stayService = require('../api/stay/stay.service')
+// const orderService = require('../api/order/order.service')
+// const userService = require('../api/user/user.service')
+// const stayService = require('../api/stay/stay.service')
 const asyncLocalStorage = require('./als.service');
 const logger = require('./logger.service');
 
 var gIo = null
-var gSocketBySessionIdMap = {}
-// var hostSocketId=
+var gSocketBySessionIdMap = {}//key:sessionID value:socket
 
 function connectSockets(http, session) {
     gIo = require('socket.io')(http);
@@ -15,40 +14,48 @@ function connectSockets(http, session) {
     gIo.use(sharedSession(session, {
         autoSave: true
     }));
-    gIo.on('connection', socket => {
-        // console.log('a user connected');
-        // console.log('socket.id',socket.id , 'line20');
+    gIo.on('connection', socket => {//creating a new socket. The same as writing: function(socket){...}
+        console.log('a user connected');
         // console.log('socket.handshake', socket.handshake)
         // console.log('New socket - socket.handshake.sessionID', socket.handshake.sessionID)
+        // Updating sessionToSocket map:
         gSocketBySessionIdMap[socket.handshake.sessionID] = socket
-        // if (socket.handshake?.session?.user) socket.join(socket.handshake.session.user._id)//??????????
+        //If the session belongs to a connected user - it joins a room named after the userId:
+        if (socket.handshake?.session?.user) socket.join(socket.handshake.session.user._id)
         socket.on('disconnect', socket => {
             console.log('Someone disconnected')
             if (socket.handshake) {
                 gSocketBySessionIdMap[socket.handshake.sessionID] = null
             }
         })
-        //Noa//
         //chat topic variation:
-        socket.on('renderOrders',(host)=>{
-            console.log(' socket service line 53',host )
-            console.log(socket.id)
-            // hostId = host._id
+        socket.on('chat topic', topic=>{
+            if (socket.myTopic===topic)return//if already connected to the right channel
+            if (socket.myTopic){
+                socket.leave(socket.myTopic)//leave current channel
+            }
+        })
+        socket.on('setTransfer',(move)=>{
+            // console.log(' socket service on setTransfer',move )
+            // console.log(socket.id)
+            // to=move.to.id
             // const userSocketId = socket.id
             gIo.emit ('loadOrders' ,host ) 
-            // gIo.to(hostId).emit('loadOrders', host)
-
-
+            // gIo.to(hostId).emit('loadOrders', host) 
         })
         socket.on('updateAns', (order)=>{
-         console.log(' socket service line 44',order )
-         gIo.emit ('updatedAns' ,order ) 
-
+            console.log(' socket service line 44',order )
+            gIo.emit ('updatedAns' ,order ) 
+            
         })
-        //privat chat room
+        //private chat room
         socket.on("private message", (anotherSocketId, msg) => {
-              socket.to(anotherSocketId).emit("private message", socket.id, msg);
+            socket.to(anotherSocketId).emit("private message", socket.id, msg);
         });
+        //send all:
+        //gIo.to('room1').emit('msg','content)
+        //send to all in room but the sender:
+        //socket.broadcast.to('room2').emit('msg','content')
 
     } ) 
     
@@ -61,7 +68,7 @@ function emit({ type, data }) {
     gIo.emit(type, data)
 }
 //
-// priver message
+// private message
 function emitToUser({ type, data, userSocketId }) {
     gIo.emit(type, data)
 }

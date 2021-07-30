@@ -31,17 +31,29 @@ if(process.env.NODE_ENV==='production'){
     app.use(cors(corsOptions))
 }
 
+// TODO: check with app.use
+//making sure the session is created before initializing the socket
+app.get('/api/setup-session', (req, res) =>{
+    req.session.connectedAt = Date.now()
+    console.log('setup-session:', req.sessionID);
+    res.end()
+})
+
 //routes
 const contactRoutes=require('./api/contact/contact.routes')
 const userRoutes=require('./api/user/user.routes')
 const authRoutes=require('./api/auth/auth.routes')
 const moveRoutes=require('./api/move/move.routes')
+
+const {connectSockets} = require('./services/socket.service')
+
 const setupAsyncLocalStorage=require('./middlewares/setupAls.middleware')
 app.all('*',setupAsyncLocalStorage)//all routes use this middleware
 app.use('/api/contact',contactRoutes)
 app.use('/api/user',userRoutes)
 app.use('/api/auth',authRoutes)
 app.use('/api/move',moveRoutes)
+connectSockets(http,session)
 
 //Make every server-side-route to match the index.html so when requesting http://localhost:XXXX/index.html/XXX/XXX 
 //it will still respond with our SPA (single page app) (the index.html file) and will allow the router to take it from there (even if no route was matched)
